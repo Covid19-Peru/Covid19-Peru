@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/index.main.9c513759.production.chunk.min.js",
-    "main.js.map": "/static/js/index.main.9c513759.production.chunk.min.js.map",
-    "runtime-main.js": "/static/js/index.9d7e1bb9.production.min.js",
-    "runtime-main.js.map": "/static/js/index.9d7e1bb9.production.min.js.map",
-    "static/css/2.3adc8b4e.chunk.css": "/static/css/2.3adc8b4e.chunk.css",
-    "static/js/index.2.3ea59f56.production.chunk.min.js": "/static/js/index.2.3ea59f56.production.chunk.min.js",
-    "static/js/index.2.3ea59f56.production.chunk.min.js.map": "/static/js/index.2.3ea59f56.production.chunk.min.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8a951216311def0e45e30c666885a0ad.js": "/precache-manifest.8a951216311def0e45e30c666885a0ad.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.3adc8b4e.chunk.css.map": "/static/css/2.3adc8b4e.chunk.css.map",
-    "static/js/index.2.3ea59f56.production.chunk.min.js.LICENSE.txt": "/static/js/index.2.3ea59f56.production.chunk.min.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.94958d24.svg"
+    "main.js": "/Covid19-Peru/static/js/index.main.fae65eef.production.chunk.min.js",
+    "main.js.map": "/Covid19-Peru/static/js/index.main.fae65eef.production.chunk.min.js.map",
+    "runtime-main.js": "/Covid19-Peru/static/js/index.b92acf85.production.min.js",
+    "runtime-main.js.map": "/Covid19-Peru/static/js/index.b92acf85.production.min.js.map",
+    "static/css/2.3adc8b4e.chunk.css": "/Covid19-Peru/static/css/2.3adc8b4e.chunk.css",
+    "static/js/index.2.3ea59f56.production.chunk.min.js": "/Covid19-Peru/static/js/index.2.3ea59f56.production.chunk.min.js",
+    "static/js/index.2.3ea59f56.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.2.3ea59f56.production.chunk.min.js.map",
+    "index.html": "/Covid19-Peru/index.html",
+    "precache-manifest.444e6acbc0d84a7eb7c0fe1df98afca5.js": "/Covid19-Peru/precache-manifest.444e6acbc0d84a7eb7c0fe1df98afca5.js",
+    "service-worker.js": "/Covid19-Peru/service-worker.js",
+    "static/css/2.3adc8b4e.chunk.css.map": "/Covid19-Peru/static/css/2.3adc8b4e.chunk.css.map",
+    "static/js/index.2.3ea59f56.production.chunk.min.js.LICENSE.txt": "/Covid19-Peru/static/js/index.2.3ea59f56.production.chunk.min.js.LICENSE.txt",
+    "static/media/logo.svg": "/Covid19-Peru/static/media/logo.94958d24.svg"
   },
   "entrypoints": [
-    "static/js/index.9d7e1bb9.production.min.js",
+    "static/js/index.b92acf85.production.min.js",
     "static/css/2.3adc8b4e.chunk.css",
     "static/js/index.2.3ea59f56.production.chunk.min.js",
-    "static/js/index.main.9c513759.production.chunk.min.js"
+    "static/js/index.main.fae65eef.production.chunk.min.js"
   ]
 }
