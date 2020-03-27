@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+Este codigo pertenece al frontend del proyecto "Covid19-Peru", creado con REACT
+Cuyo fin es informar a la población hispanohablante, a tiempo real.
 
 ## Available Scripts
 
