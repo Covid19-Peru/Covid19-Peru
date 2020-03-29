@@ -4,8 +4,8 @@
     "static/js/index.0.f544b7b5.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.0.f544b7b5.production.chunk.min.js.map",
     "main.js": "/Covid19-Peru/static/js/index.main.4e0f5a29.production.chunk.min.js",
     "main.js.map": "/Covid19-Peru/static/js/index.main.4e0f5a29.production.chunk.min.js.map",
-    "runtime-main.js": "/Covid19-Peru/static/js/index.d11002d4.production.min.js",
-    "runtime-main.js.map": "/Covid19-Peru/static/js/index.d11002d4.production.min.js.map",
+    "runtime-main.js": "/Covid19-Peru/static/js/index.9650cdb9.production.min.js",
+    "runtime-main.js.map": "/Covid19-Peru/static/js/index.9650cdb9.production.min.js.map",
     "static/js/index.3.a987485b.production.chunk.min.js": "/Covid19-Peru/static/js/index.3.a987485b.production.chunk.min.js",
     "static/js/index.3.a987485b.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.3.a987485b.production.chunk.min.js.map",
     "static/css/4.3adc8b4e.chunk.css": "/Covid19-Peru/static/css/4.3adc8b4e.chunk.css",
@@ -17,10 +17,10 @@
     "static/js/index.6.6de70c83.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.6.6de70c83.production.chunk.min.js.map",
     "static/js/index.7.b9c31067.production.chunk.min.js": "/Covid19-Peru/static/js/index.7.b9c31067.production.chunk.min.js",
     "static/js/index.7.b9c31067.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.7.b9c31067.production.chunk.min.js.map",
-    "static/js/index.8.0c32f0bd.production.chunk.min.js": "/Covid19-Peru/static/js/index.8.0c32f0bd.production.chunk.min.js",
-    "static/js/index.8.0c32f0bd.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.8.0c32f0bd.production.chunk.min.js.map",
+    "static/js/index.8.ba9b332a.production.chunk.min.js": "/Covid19-Peru/static/js/index.8.ba9b332a.production.chunk.min.js",
+    "static/js/index.8.ba9b332a.production.chunk.min.js.map": "/Covid19-Peru/static/js/index.8.ba9b332a.production.chunk.min.js.map",
     "index.html": "/Covid19-Peru/index.html",
-    "precache-manifest.3f14d2f2c57ccbbd42235c215d9fa4d6.js": "/Covid19-Peru/precache-manifest.3f14d2f2c57ccbbd42235c215d9fa4d6.js",
+    "precache-manifest.8128be5ec413b3b36413d14276d5d438.js": "/Covid19-Peru/precache-manifest.8128be5ec413b3b36413d14276d5d438.js",
     "service-worker.js": "/Covid19-Peru/service-worker.js",
     "static/css/4.3adc8b4e.chunk.css.map": "/Covid19-Peru/static/css/4.3adc8b4e.chunk.css.map",
     "static/js/index.3.a987485b.production.chunk.min.js.LICENSE.txt": "/Covid19-Peru/static/js/index.3.a987485b.production.chunk.min.js.LICENSE.txt",
@@ -28,7 +28,7 @@
     "static/media/logo.svg": "/Covid19-Peru/static/media/logo.94958d24.svg"
   },
   "entrypoints": [
-    "static/js/index.d11002d4.production.min.js",
+    "static/js/index.9650cdb9.production.min.js",
     "static/css/4.3adc8b4e.chunk.css",
     "static/js/index.4.46ff9c95.production.chunk.min.js",
     "static/js/index.main.4e0f5a29.production.chunk.min.js"
