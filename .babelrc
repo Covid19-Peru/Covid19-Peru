@@ -1,0 +1,18 @@
+/*
+Una gran característica de la web es que no tenemos que hacer que nuestros visitantes descarguen toda la aplicación antes de que puedan usarla. Puede pensar en la división de código como la descarga incremental de la aplicación. Para lograr esto usaremos webpack, @babel/plugin-syntax-dynamic-importy loadable-components.
+webpack tiene soporte integrado para importaciones dinámicas; sin embargo, si está utilizando Babel (por ejemplo, para compilar JSX en JavaScript) entonces tendrá que utilizar el plugin @babel/plugin-syntax-dynamic-import. Este es un plugin de solo sintaxis, lo que significa que Babel no hará ninguna transformación adicional. El plugin simplemente permite a Babel analizar las importaciones dinámicas para que webpack pueda agruparlas como una división de código.
+*/
+{
+  "presets": [[
+    "@babel/preset-env", {
+      "useBuiltIns": "entry"
+    }],
+    "@babel/preset-react"],
+    "plugins": [
+      ["@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
+    ]
+}
