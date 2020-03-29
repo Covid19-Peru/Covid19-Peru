@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b40635c7b66c7153f35fb84e1f898efc",
+    "revision": "247ec15b5dc741c66bc1d72c9d079a70",
     "url": "/Covid19-Peru/index.html"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.6.456e8be6.production.chunk.min.js"
   },
   {
-    "revision": "a2e64e4f18b84dea6465",
-    "url": "/Covid19-Peru/static/js/index.7.76bc8dd6.production.chunk.min.js"
+    "revision": "761c5bf73f569d457b81",
+    "url": "/Covid19-Peru/static/js/index.7.04fbfcea.production.chunk.min.js"
   },
   {
     "revision": "1c6fdb3d305bc44f5d6d",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.9.c30abc9b.production.chunk.min.js"
   },
   {
-    "revision": "a5ea095ed74a5de54e09",
-    "url": "/Covid19-Peru/static/js/index.a1835cf4.production.min.js"
+    "revision": "e1ca99ca29296f8597f9",
+    "url": "/Covid19-Peru/static/js/index.f213fb7e.production.min.js"
   },
   {
     "revision": "9aaec94455e1d2aee4e3",
