@@ -1,4 +1,4 @@
-import React, { useState, useEffect,prevState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 //alert("1")
 function DatosCountry() {
@@ -42,7 +42,7 @@ function DatosCountry() {
 
                     <div className="container form-group">
                         <label className="display-4">Selecciona tu País :</label>
-                        <select id="select_country" data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)}>
+                        <select id="select_country" defaultValue="Selecciona..." data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)}>
                             {
                                 loadingCounrty ?
                                     <option>Obteniendo datos ...</option>

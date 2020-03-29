@@ -1,12 +1,35 @@
-import React from 'react'
+import React from 'react';
+import {NavLink}  from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
-    <header className="css-ue4yb0">
-      <nav className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-sm">
-        <h5 className="my-0 mr-md-auto font-weight-normal">Coronavirus en Perú xddd</h5>
-      </nav>
-    </header>
+      <header>
+
+        <nav className="navbar navbar-expand-md navbar-light fixed-top bg-light">
+          <img className="Awebo" alt="" />
+          <NavLink className="navbar-brand" to="/">Covid19</NavLink>
+          <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="navbar-collapse collapse" id="navbarCollapse">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/DatosMundiales">DatosMundiales</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/DatosCountry">DatosCountry</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/DatosRegionesPeru">DatosRegionesPeru</NavLink>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      
+        
+      </header>
   )
 }
 export default Navbar
