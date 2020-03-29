@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage":"https://Covid19-Peru.github.io/Covid19-Peru",
+=======
+  "homepage": "https://Covid19-Peru.github.io/Covid19-Peru",
+>>>>>>> d7e01a4d55ca304403ed6d27cf1f1b56eec1126f
   "name": "coronavirus-peru",
   "version": "0.1.0",
   "private": true,
