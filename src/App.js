@@ -11,6 +11,7 @@ const Navbar = lazy(() => import('./components/Navbar'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
 const DatosCountry = lazy(() => import('./components/DatosCountry'));
 const DatosRegionesPeru = lazy(() => import('./components/DatosRegionesPeru'));
+const Footer = lazy(() => import('./components/Footer'));
 
 function App (){
   
@@ -23,14 +24,11 @@ function App (){
 
         <Switch>
 
-          <Route exact path="/f">
-            <Redirect to="/Covid19-Peru" />
-          </Route>
-
           <Route exact path="/">
             <DatosMundiales />
             <DatosCountry />
             <DatosRegionesPeru />
+            <Footer />
           </Route>
 
           <Route exact path="/DatosMundiales" component={DatosMundiales}/>

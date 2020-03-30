@@ -42,13 +42,13 @@ function DatosCountry() {
 
                     <div className="container form-group">
                         <label className="display-4">Selecciona tu País :</label>
-                        <select id="select_country" defaultValue="Selecciona..." data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)}>
+                        <select id="select_country" value={indexDatosCountry} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)}>
                             {
                                 loadingCounrty ?
                                     <option>Obteniendo datos ...</option>
                                 :
                                 datosCountry.map((datoCountry,index) => (
-                                    <option key={index} selected={index==indexDatosCountry} value={index}>{datoCountry.country +" - "+ "Top: "+(index+1)}</option>
+                                    <option key={index} value={index}>{datoCountry.country +" - "+ "Top: "+(index+1)}</option>
                                     )
                                 )
                             }
