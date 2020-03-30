@@ -1,4 +1,8 @@
 import React from 'react';
+import '../assets/styles/css/social.css'
+import '../assets/styles/css/style.css'
+
+
 function DatosRegionesPeru() {
     return (
         <div className="container">
@@ -14,8 +18,18 @@ function DatosRegionesPeru() {
                     
                     <h2 className="display-4">Youtube Minsa</h2>
                     <div className="container">
-                        <a className="twitter-timeline" href="https://www.youtube.com/channel/UCpR7spJxkXzqAI9aBr7Xacw">Youtube by Minsa_Peru</a>
+                        <a className="youtube-timeline" href="https://www.youtube.com/channel/UCpR7spJxkXzqAI9aBr7Xacw">Youtube by Minsa_Peru</a>
                     </div>
+
+                    <h2 className="display-4">Ubicanos</h2>
+                    <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" class="icon-facebook"></a></li>
+                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" class="icon-twitter"></a></li>
+
+                    </ul>
+	</div>
+
                 </div>
             </section>
         </div>
