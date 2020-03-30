@@ -28,7 +28,7 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="/DatosCountry">Datos por País</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosRegionesPeru">Datos de Regiones en elPeru</NavLink>
+                <NavLink className="nav-link" to="/DatosRegionesPeru">Datos de Regiones en el Perú</NavLink>
               </li>
             </ul>
             <img className="youtube" src={youtube} alt="" />
