@@ -1,0 +1,17 @@
+.Awebo{
+    width: 35px;
+    margin-right: 12px;
+}
+
+.twitter{
+    width: 30px;
+}
+
+.youtube{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Slab', serif;
+}
