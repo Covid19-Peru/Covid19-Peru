@@ -1,8 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Description
+Este proyecto fue arrancado con [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
 Este codigo pertenece al frontend del proyecto "Covid19-Peru", creado con REACT
-Cuyo fin es informar a la población hispanohablante, a tiempo real.
+Cuyo fin es informar a la población hispanohablante, en tiempo real.
+
+---
+
+### Instalar
+
+Descargar:
+```bash
+git clone https://github.com/Covid19-Peru/Covid19-Peru
+```
+Instalar dependecias :
+```bash
+npm install
+```
+
+---
+
+### Manejo de Git
+
+Bajar nuevos cambios desde GitHub:
+```bash
+git pull origin master
+```
+Subir nuevos cambios a GitHub :
+```bash
+git push -u origin master
+```
+---
+
+> PD: En caso de no haber usado git clone y tener problemas al subir cambios a GitHub --> 
+        git pull origin master --allow-unrelated-histories.
+
+---
 
 ## Available Scripts
 
