@@ -70,6 +70,14 @@ function DatosMundiales() {
                                     {loadingMundial ? <div className="spinner-border text-success" role="status"></div> : <h4 className="">{dataMundial.recovered}</h4>}
                                     </div>
                                 </div>
+
+                                <div class="social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/minsaperu/" target="_blank" class="icon-facebook"></a></li>
+                                    <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" class="icon-twitter"></a></li>
+
+                                </ul>
+                                </div> 
                             </div>
                         </div>
                     </section>
