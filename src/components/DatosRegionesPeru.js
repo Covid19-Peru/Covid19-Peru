@@ -21,7 +21,9 @@ function DatosRegionesPeru() {
                         <a className="youtube-timeline" href="https://www.youtube.com/channel/UCpR7spJxkXzqAI9aBr7Xacw">Youtube by Minsa_Peru</a>
                     </div>
 
-                    <h2 className="display-4">Ubicanos</h2>
+                    <h2 className="display-4">¿Cómo prevenir el Coronavirus (COVID-19)? </h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                     <div className="social">
                         <ul>
                             <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>

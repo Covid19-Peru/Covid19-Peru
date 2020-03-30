@@ -22,13 +22,13 @@ const Navbar = () => {
           <div className="navbar-collapse collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosMundiales">DatosMundiales</NavLink>
+                <NavLink className="nav-link" to="/DatosMundiales">Datos Mundiales</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosCountry">DatosCountry</NavLink>
+                <NavLink className="nav-link" to="/DatosCountry">Datos por País</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosRegionesPeru">DatosRegionesPeru</NavLink>
+                <NavLink className="nav-link" to="/DatosRegionesPeru">Datos de Regiones en elPeru</NavLink>
               </li>
             </ul>
             <img className="youtube" src={youtube} alt="" />
