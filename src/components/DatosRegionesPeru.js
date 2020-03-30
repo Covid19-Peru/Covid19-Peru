@@ -22,13 +22,13 @@ function DatosRegionesPeru() {
                     </div>
 
                     <h2 className="display-4">Ubicanos</h2>
-                    <div class="social">
-                    <ul>
-                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" class="icon-facebook"></a></li>
-                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" class="icon-twitter"></a></li>
+                    <div className="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
+                            <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
 
-                    </ul>
-	</div>
+                        </ul>
+	                </div>
 
                 </div>
             </section>
