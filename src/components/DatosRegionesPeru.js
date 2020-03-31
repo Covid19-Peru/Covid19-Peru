@@ -11,7 +11,9 @@ function DatosRegionesPeru() {
             <section className="DatosRegionesPeru jumbotron text-center">
                 <div className=" text-center">
                     <h2 className="display-4" ><b>¿Cómo prevenir el Coronavirus (COVID-19)?</b> </h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div className="contenedor">
+                        <iframe width="580" height="350" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     
                     <h2 className="display-4">Twitter Minsa</h2>
                     <div className="container">
