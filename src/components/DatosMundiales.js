@@ -74,10 +74,10 @@ function DatosMundiales() {
                                     </div>
                                 </div>
 
-                                <div class="social">
+                                <div className="social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/minsaperu/" target="_blank" class="icon-facebook"></a></li>
-                                    <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" class="icon-twitter"></a></li>
+                                    <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
+                                    <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
 
                                 </ul>
                                 </div> 

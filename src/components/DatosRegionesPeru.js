@@ -12,7 +12,7 @@ function DatosRegionesPeru() {
                 <div className=" text-center">
                     <h2 className="display-4" ><b>¿Cómo prevenir el Coronavirus (COVID-19)?</b> </h2>
                     <div className="contenedor">
-                        <iframe width="580" height="350" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="580" height="350" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                     
                     <h2 className="display-4">Twitter Minsa</h2>
