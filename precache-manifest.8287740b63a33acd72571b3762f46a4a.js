@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe88ca4ff2cec37cf1ac04c77428254a",
+    "revision": "d5418723029ff3d1248ddae1f69173d6",
     "url": "/Covid19-Peru/index.html"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/css/4.03696358.chunk.css"
   },
   {
-    "revision": "a27fd9442fc413758472",
+    "revision": "77f6f9ee6dc2c7b6d2bf",
     "url": "/Covid19-Peru/static/css/5.6fab01ce.chunk.css"
   },
   {
-    "revision": "9693e142185414557f8c",
+    "revision": "42fe46f0e419673adebc",
     "url": "/Covid19-Peru/static/css/6.f089a86f.chunk.css"
   },
   {
@@ -36,24 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.4.2e38cdc7.production.chunk.min.js"
   },
   {
-    "revision": "a27fd9442fc413758472",
-    "url": "/Covid19-Peru/static/js/index.5.37c72c6a.production.chunk.min.js"
+    "revision": "77f6f9ee6dc2c7b6d2bf",
+    "url": "/Covid19-Peru/static/js/index.5.8af6bff3.production.chunk.min.js"
   },
   {
-    "revision": "78ca9fab98d733b188ae",
-    "url": "/Covid19-Peru/static/js/index.5b86296e.production.min.js"
+    "revision": "42fe46f0e419673adebc",
+    "url": "/Covid19-Peru/static/js/index.6.f759b8b4.production.chunk.min.js"
   },
   {
-    "revision": "9693e142185414557f8c",
-    "url": "/Covid19-Peru/static/js/index.6.4b5121ed.production.chunk.min.js"
-  },
-  {
-    "revision": "d608ea7da071102fdbf6",
-    "url": "/Covid19-Peru/static/js/index.7.dbe39a6b.production.chunk.min.js"
+    "revision": "dac8910a7600abe4804c",
+    "url": "/Covid19-Peru/static/js/index.7.87b64ed2.production.chunk.min.js"
   },
   {
     "revision": "f46dad81ee2daa264c41",
     "url": "/Covid19-Peru/static/js/index.8.ddf0cbed.production.chunk.min.js"
+  },
+  {
+    "revision": "070c0766a2bd6e95b421",
+    "url": "/Covid19-Peru/static/js/index.c99ccab0.production.min.js"
   },
   {
     "revision": "cace80c01874ecff538b",
