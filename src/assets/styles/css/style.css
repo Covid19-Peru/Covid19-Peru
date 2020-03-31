@@ -38,8 +38,12 @@
   content: "\ea9d";
 }
 
-h1{
+h1, label{
   font-family: 'Merriweather', 'serif';
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
 }
 
 .jumbotron{
