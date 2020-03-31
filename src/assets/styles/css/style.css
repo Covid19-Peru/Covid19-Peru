@@ -69,3 +69,8 @@ h2{
   top: 0;
   width: 100%;
 }
+
+.form-control{
+  width: 60%;
+  display: inline-block;
+}

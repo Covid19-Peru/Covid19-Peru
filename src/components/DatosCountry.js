@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../assets/styles/css/style.css'
 
 //alert("1")
 function DatosCountry() {
