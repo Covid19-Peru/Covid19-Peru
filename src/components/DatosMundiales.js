@@ -1,6 +1,9 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
-import logo from './../assets/logo.svg'
+import logo from '../assets/img/logo.svg'
+import '../assets/styles/css/style.css'
+
+
 //alert("1")
 function DatosMundiales() {
     //alert("2")

@@ -37,3 +37,15 @@
 .icon-youtube:before {
   content: "\ea9d";
 }
+
+h1{
+  font-family: 'Merriweather', 'serif';
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+.d-block{
+  margin-top: 65px;
+}

@@ -1,18 +1,19 @@
 import React from 'react';
 import {NavLink}  from 'react-router-dom'
-import logo from '../assets/img/coronavirus192.png'
+import icono from '../assets/img/coronavirus192.png'
 import twitter from '../assets/img/twitter.svg'
 import youtube from '../assets/img/youtube.svg';
+import facebook from '../assets/img/facebook.svg';
 import '../assets/styles/css/NavBarStyle.css'
 
 const Navbar = () => {
   return (
       <header>
 
-        <nav className="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           
           <NavLink className="navbar-brand" to="/">
-            <img className = "logo" src = {logo} alt="Logo" />
+            <img className = "icono" src = {icono} alt="icono" />
             Covid19
           </NavLink>
           
@@ -31,6 +32,7 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="/DatosRegionesPeru">Datos de Regiones en el Perú</NavLink>
               </li>
             </ul>
+            <img className="facebook" src={facebook} alt="" />
             <img className="youtube" src={youtube} alt="" />
             <img className="twitter" src={twitter} alt="" />
           </div>
