@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../assets/styles/css/social.css'
 import '../../assets/styles/css/Prevencion.css'
 import Foto5 from  '../../assets/img/lavar las manos.jpg'
 import Foto6 from  '../../assets/img/cubrete.jpg'
@@ -10,7 +11,7 @@ export default function PrevenirElCovid19() {
         <div className="container marketing">
             <div className="row">
                 <div className="col-lg5">
-                    <h2>Realice estas 4 recomendaciones:</h2>
+                    <h2>Realice estas cuatro recomendaciones:</h2>
                     <p> Por el MINSA</p> 
                     <p> </p> 
                     <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto5} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
@@ -37,14 +38,15 @@ export default function PrevenirElCovid19() {
                 <p> </p>
                     <h2>4. SI PRESENTAS SÍNTOMAS RESPIRATORIOS Y HAS VIAJADO A UNA ZONA DE RIESGO, PERMANECE EN CASA Y LLAMA AL 911</h2>
                 </div>
+            
             </div>
-        
-        <div>
+
+            
+
             <footer className="my-5 pt-5 text-muted text-center text-small">
                 <hr></hr>
                 <p className="mb-1">© 2020 <a href="https://www.linkedin.com/in/cuevacelis/">@Cueva Celis</a></p>
             </footer>
-        </div>
         </div>
     )
 }
