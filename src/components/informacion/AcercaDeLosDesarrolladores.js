@@ -19,7 +19,7 @@ export default function AcercaDeLosDesarrolladores() {
                 <div className="col-lg-4">
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto2} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
                     <h2>José Cueva</h2>
-                    <p>Programador Back-End</p>
+                    <p>Programador Back-End, Front-End y Fundador.</p>
                     <p>Comenzó, yo que sé que lo escriba él.</p>
                     <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/cuevacelis/" role="button">View details »</a></p>
                 </div>
