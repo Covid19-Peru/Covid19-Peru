@@ -30,7 +30,6 @@ export default function AcercaDeLosDesarrolladores() {
                     <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                 </div>
             </div>
-            <hr class="featurette-divider" />
         </div>
     )
 }
