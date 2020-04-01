@@ -6,20 +6,23 @@ import {
   Redirect,
   HashRouter
 } from "react-router-dom";
-
+const PantallaDeCarga = lazy(() => import('./components/PantallaDeCarga'));
 const Navbar = lazy(() => import('./components/Navbar'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
 const DatosCountry = lazy(() => import('./components/DatosCountry'));
 const DatosRegionesPeru = lazy(() => import('./components/DatosRegionesPeru'));
 const Footer = lazy(() => import('./components/Footer'));
+const AcercaDeLosDesarrolladores = lazy(() => import('./components/informacion/AcercaDeLosDesarrolladores'));
+const ComoHicimosLaPagina = lazy(() => import('./components/informacion/ComoHicimosLaPagina'));
+const PrevenirElCovid19 = lazy(() => import('./components/informacion/PrevenirElCovid19'));
 
 function App (){
   
   return (
     <HashRouter>
 
-      <Suspense fallback={<div>Pantalla de Carga...</div>}>
-
+      <Suspense delayMs={500} fallback={<div>Cargando....</div>}>
+        
         <Navbar />
 
         <Switch>
@@ -31,9 +34,9 @@ function App (){
             <Footer />
           </Route>
 
-          <Route exact path="/DatosMundiales" component={DatosMundiales}/>
-          <Route exact path="/DatosCountry" component={DatosCountry}/>
-          <Route exact path="/DatosRegionesPeru" component={DatosRegionesPeru}/>
+          <Route exact path="/about" component={AcercaDeLosDesarrolladores}/>
+          <Route exact path="/coide-source" component={ComoHicimosLaPagina}/>
+          <Route exact path="/prevencion" component={PrevenirElCovid19}/>
 
         </Switch>
 

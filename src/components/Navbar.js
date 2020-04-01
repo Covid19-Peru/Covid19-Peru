@@ -23,13 +23,13 @@ const Navbar = () => {
           <div className="navbar-collapse collapse" id="navbarCollapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosMundiales">Datos Mundiales</NavLink>
+                <NavLink className="nav-link" to="/about">¿Quien lo hizo?</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosCountry">Datos por País</NavLink>
+                <NavLink className="nav-link" to="/coide-source">¿Como lo hicieron?</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/DatosRegionesPeru">Datos de Regiones en el Perú</NavLink>
+                <NavLink className="nav-link" to="/prevencion">Preven el Covid19</NavLink>
               </li>
             </ul>
             <img className="facebook" src={facebook} alt="" />
