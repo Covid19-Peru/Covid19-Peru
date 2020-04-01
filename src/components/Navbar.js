@@ -29,7 +29,7 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="/coide-source">¿Como lo hicieron?</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/prevencion">Preven el Covid19</NavLink>
+                <NavLink className="nav-link" to="/prevencion">Prevenir el Covid19</NavLink>
               </li>
             </ul>
             <img className="facebook" src={facebook} alt="" />
