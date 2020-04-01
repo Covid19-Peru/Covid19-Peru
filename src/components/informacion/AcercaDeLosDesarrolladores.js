@@ -42,8 +42,6 @@ export default function AcercaDeLosDesarrolladores() {
                     <p><a className="btn btn-secondary" href="https://pe.linkedin.com/in/anderson-nolberto-perales-l%C3%B3pez-8655b5193?trk=people-guest_people_search-card" role="button">Ver más detalles »</a></p>
                 </div>
 
-                <Footer />
-
                 <div className="social">
                             <ul>
                                 <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
@@ -51,8 +49,8 @@ export default function AcercaDeLosDesarrolladores() {
 
                             </ul>
                 </div>  
-                
-                </div>
+            </div>
+            <Footer />
         </div>
     )
 }
