@@ -5,6 +5,7 @@ import twitter from '../assets/img/twitter.svg'
 import youtube from '../assets/img/youtube.svg';
 import facebook from '../assets/img/facebook.svg';
 import '../assets/styles/css/NavBarStyle.css'
+import '../assets/styles/css/EstilosGenerales.css'
 
 const Navbar = () => {
   return (
@@ -35,6 +36,10 @@ const Navbar = () => {
             <img className="facebook" src={facebook} alt="" />
             <img className="youtube" src={youtube} alt="" />
             <img className="twitter" src={twitter} alt="" />
+            <button id="theme-switcher" 
+              onClick={()=>document.body.classList.toggle('dark')
+              } 
+            >Switch theme!</button>
           </div>
         </nav>
       

@@ -30,7 +30,7 @@ export default function AcercaDeLosDesarrolladores() {
                     <p>Programador Back-End, Front-End y Fundador.</p>
                     <p>Comencé este proyecto para brindar información a las personas. 
                        Me caracterizo por liderar proyectos, compartir mis conocimientos, y ayudar a mi equipo para completar las metas propuestas. 
-                       Soy apasionado por el lenguaje nativo y Javascript.</p>
+                       Soy apasionado por Javascript.</p>
                     <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/cuevacelis/" role="button">Ver más detalles »</a></p>
                 </div>
                 <div className="col-lg-4">

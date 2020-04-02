@@ -1,0 +1,23 @@
+:root {
+    --background: #ffffff;
+    --container: #ffffff;
+    --text-primary: #1a202c;
+  }
+  
+  .dark {
+    --background: #4a5568;
+    --container: #2d3748;
+    --text-primary: #f7fafc;
+  }
+  
+  body {
+    background-color: var(--background);
+    font-family: sans-serif;
+    color: var(--text-primary);
+  }
+  
+  .container {
+    background-color: var(--container);
+    padding: 10px;
+    text-align: center;
+  }
