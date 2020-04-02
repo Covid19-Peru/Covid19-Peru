@@ -32,7 +32,7 @@
   left: 5%;
   background-color: #e5e5e5;
 }
-
+ /*Conjunto flexible*/
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
@@ -45,3 +45,8 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+/**/
+
+.opacity-65{
+  opacity: 65%;
+}

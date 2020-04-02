@@ -36,10 +36,10 @@ const Navbar = () => {
             <img className="facebook" src={facebook} alt="" />
             <img className="youtube" src={youtube} alt="" />
             <img className="twitter" src={twitter} alt="" />
-            <button id="theme-switcher" 
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" id="theme-switcher" 
               onClick={()=>document.body.classList.toggle('dark')
               } 
-            >Switch theme!</button>
+            >Modo Oscuro</button>
           </div>
         </nav>
       
