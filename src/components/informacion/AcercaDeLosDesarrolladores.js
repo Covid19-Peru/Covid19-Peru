@@ -1,5 +1,7 @@
 import React, { lazy } from 'react'
 import '../../assets/styles/css/AcercaDeLosDesarrolladores.css'
+import '../../assets/styles/css/social.css'
+import '../../assets/styles/css/style.css'
 import Foto1 from  '../../assets/img/Un_wapo.jpg'
 import Foto2 from '../../assets/img/jose-cueva-celis.jpg'
 import Foto3 from '../../assets/img/ElPapiChurro.jpg'
@@ -32,14 +34,14 @@ export default function AcercaDeLosDesarrolladores() {
                     <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/cuevacelis/" role="button">Ver más detalles »</a></p>
                 </div>
                 <div className="col-lg-4">
-                <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto3} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
-                    <p> </p> 
-                    <h2>Anderson Perales</h2>
-                    <p>Programador Front-End, Base de Datos en SQLServer y Documentación de Proyectos.</p> 
-                    <p> </p> 
-                    <p>Comencé principalmente este proyecto para brindar información a las personas sobre este virus llamado COVID-19.
-                        Me gusta mucho diseño de interfaces de Paginas Web.</p>
-                    <p><a className="btn btn-secondary" href="https://pe.linkedin.com/in/anderson-nolberto-perales-l%C3%B3pez-8655b5193?trk=people-guest_people_search-card" role="button">Ver más detalles »</a></p>
+                    <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto3} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
+                        <p> </p> 
+                        <h2>Anderson Perales</h2>
+                        <p>Programador Front-End, Base de Datos en SQLServer y Documentación de Proyectos.</p> 
+                        <p> </p> 
+                        <p>Comencé principalmente este proyecto para brindar información a las personas sobre este virus llamado COVID-19.
+                            Me gusta mucho diseño de interfaces de Paginas Web.</p>
+                        <p><a className="btn btn-secondary" href="https://pe.linkedin.com/in/anderson-nolberto-perales-l%C3%B3pez-8655b5193?trk=people-guest_people_search-card" role="button">Ver más detalles »</a></p>
                 </div>
 
                 <div className="social">
