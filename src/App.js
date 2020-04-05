@@ -1,4 +1,5 @@
 import React, { Suspense, lazy } from 'react';
+import PantallaDeCarga from './components/PantallaDeCarga'
 import {
   BrowserRouter,
   Switch,
@@ -6,7 +7,6 @@ import {
   Redirect,
   HashRouter
 } from "react-router-dom";
-const PantallaDeCarga = lazy(() => import('./components/PantallaDeCarga'));
 const Navbar = lazy(() => import('./components/Navbar'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
 const DatosCountry = lazy(() => import('./components/DatosCountry'));
@@ -21,7 +21,7 @@ function App (){
   return (
     <HashRouter>
 
-      <Suspense delayMs={500} fallback={<div>Cargando....</div>}>
+      <Suspense delayMs={500} fallback={<PantallaDeCarga />}>
         
         <Navbar />
 
