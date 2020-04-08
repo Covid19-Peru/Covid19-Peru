@@ -9,7 +9,7 @@
     --container: #2d3748;
     --text-primary: #f7fafc;
   }
-  
+
   body {
     background-color: var(--background);
     font-family: sans-serif;
@@ -24,4 +24,9 @@
 
  button{
     margin-left: 10px;
+  }
+
+    
+  section{
+    background-color:#778296 ;
   }

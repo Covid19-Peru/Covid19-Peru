@@ -29,10 +29,10 @@ function DatosMundiales() {
     //alert("10")
     return (
         <div>
-            <section className="DatosMundiales">
+            <section className="container DatosMundiales">
                 <div className=" text-center">
                     
-                    <section className="jumbotron text-center">
+                    <section className="container text-center">
                         <div className="container">
                             <img className="d-block mx-auto mb-4" src={logo} alt="imgCovid19" />
                             <h1 className="display-4">Coronavirus en América Latina</h1>
@@ -42,9 +42,9 @@ function DatosMundiales() {
 
                     </section>
                     <hr></hr>
-                    <section className="jumbotron text-center">
+                    <section className="container text-center container">
                         <div className="container">
-                            <h1 className="display-4">Datos del Mundo 🗺️</h1>
+                            <h1 className="display-4 container">Datos del Mundo 🗺️</h1>
                             <div className="my-3 p-3">
                                 <p className="text-muted"><em>(Mantenemos actualizada nuestra información a diario)</em></p>
                                 <button className="btn btn-primary" onClick={() => setActualizarComponente(!actualizarComponente)} >Actualizar información ahora</button>

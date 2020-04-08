@@ -39,7 +39,7 @@ function DatosCountry() {
 
     return (
         <div>
-            <section className="jumbotron text-center DatosPeru">
+            <section className="container text-center DatosPeru">
                 <div className="text-center">
 
                     <div className="container form-group">
@@ -57,8 +57,8 @@ function DatosCountry() {
                         </select>
                     </div>
                     
-                    {loadingCounrty ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Datos de {datosCountry[indexDatosCountry].country}</h1>}
-                    <div className="my-3">
+                    <div className="my-3 container">
+                        {loadingCounrty ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Datos de {datosCountry[indexDatosCountry].country}</h1>}
                         <p className="text-muted"><em>(Mantenemos actualizada nuestra información a diario)</em></p>
                         <button className="btn btn-primary" onClick={() => setActualizarComponente(!actualizarComponente)}>Actualizar información ahora</button>
                     </div>
