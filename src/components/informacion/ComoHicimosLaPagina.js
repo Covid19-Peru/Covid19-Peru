@@ -4,6 +4,10 @@ import Foto1 from '../../assets/img/Un_wapo.jpg'
 import Foto2 from '../../assets/img/jose-cueva-celis.jpg'
 import Conversacion from '../../assets/img/conversacion.svg'
 import Herramienta from '../../assets/img/herramienta.svg'
+import Foto3 from '../../assets/img/ElPapiChurro.jpg'
+import JavaScript from '../../assets/img/javascript.svg'
+import LogoReact from '../../assets/img/reaccionar.svg'
+import Css from '../../assets/img/css-3.svg'
 
 if(localStorage.getItem('theme') === "dark") {
 	document.body.classList.toggle(localStorage.getItem('theme'));
@@ -55,9 +59,9 @@ export default function ComoHicimosLaPagina() {
                                     </div>
                                 </div>
                             </p>
-                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"20px", marginRight: "20px"}} focusable="false" role="img"></img>
+                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"20px", marginRight: "20%"}} focusable="false" role="img"></img>
                             <p>
-                                <div className="message-content bg-dark" style={{ fontSize: "15px",width: "30%", borderRadius:"21px 21px 0 21px", marginLeft: "170px"}}>
+                                <div className="message-content bg-dark" style={{ fontSize: "15px",width: "20%", borderRadius:"21px 21px 0 21px", marginLeft: "20%"}}>
                                     <div className="contenedor">
                                         <div className="bd-dark" style={{marginTop:"45px"}}>
                                             <div>oc.</div>
@@ -76,12 +80,35 @@ export default function ComoHicimosLaPagina() {
                     <div className="my-3 p-3">
                         <h2 className="display-5">Segundo</h2>
                         <p className="lead">Herramientas Necesarias
-                            <img src={Herramienta} width="50" height="50" style={{marginLeft: "10px"}}></img> 
+                            <img src={Herramienta} width="40" height="40" style={{marginLeft: "10px"}}></img> 
                         </p>
                     </div>
                     <div className="bg-dark shadow-sm mx-auto" style={{width: "80%", height: "300px", borderRadius:"21px 21px 0 0"}}>
-                        <div className="bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
-                            
+                        <div className="container bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
+                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto3} style={{float:"left", marginTop:"50px", marginLeft: "10%"}} focusable="false" role="img"></img>
+                            <p style={{margin:"0 auto"}}>
+                                <div className="message-content bg-light" style={{ fontSize: "15px",width: "40%", borderRadius:"21px 21px 21px 0", marginLeft: "135px"}}>
+                                    <div className="contenedor">
+                                        <div className="bd-light" style={{marginTop:"70px"}}>
+                                            <div>Herramientas que usamos.</div>
+                                            <div className="mt-1">
+                                                <small className="opacity-65">5 mins ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <div className="row" style={{marginTop:"60px", justifyContent:"center"}}>
+                                <div className="col-xs-6">
+                                    <img className="bd-placeholder-img" width="60" height="60" src={JavaScript} focusable="false" role="img"></img>
+                                </div> 
+                                <div className="col-xs-6">
+                                    <img className="bd-placeholder-img" width="60" height="60" src={LogoReact} focusable="false" role="img"></img>
+                                </div>                           
+                                <div className="col-xs-6">
+                                    <img className="bd-placeholder-img" width="60" height="60" src={Css} focusable="false" role="img"></img>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
