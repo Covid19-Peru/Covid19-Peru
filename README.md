@@ -30,7 +30,8 @@ git push -u origin master
 ```
 ---
 
-> PD: En caso de no haber usado git clone y tener problemas al subir cambios a GitHub usar el siguiente código "git pull origin master --allow-unrelated-histories".
+> PD1: En caso de no haber usado git clone y tener problemas al subir cambios a GitHub usar el siguiente código "git pull origin master --allow-unrelated-histories".
+> PD2: Se necesita tener instalado el git (https://git-scm.com/downloads) y el NodeJS (https://nodejs.org/es/download/).
 
 ---
 

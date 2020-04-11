@@ -1,12 +1,10 @@
-import React, { lazy } from 'react'
+import React from 'react'
 import '../../assets/styles/css/AcercaDeLosDesarrolladores.css'
 import '../../assets/styles/css/social.css'
 import '../../assets/styles/css/style.css'
 import Foto1 from  '../../assets/img/Un_wapo.jpg'
 import Foto2 from '../../assets/img/jose-cueva-celis.jpg'
 import Foto3 from '../../assets/img/ElPapiChurro.jpg'
-
-const Footer = lazy(() => import('./../Footer'));
 
 export default function AcercaDeLosDesarrolladores() {
     return (
@@ -45,14 +43,13 @@ export default function AcercaDeLosDesarrolladores() {
                 </div>
 
                 <div className="social">
-                            <ul>
-                                <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
-                                <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
+                    <ul>
+                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
+                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
 
-                            </ul>
+                    </ul>
                 </div>  
             </div>
-            <Footer />
         </div>
     )
 }

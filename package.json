@@ -1,5 +1,5 @@
 {
-  "homepage":"https://Covid19-Peru.github.io/Covid19-Peru",
+  "homepage": "https://Covid19-Peru.github.io/Covid19-Peru",
   "name": "coronavirus-peru",
   "version": "0.1.0",
   "private": true,
@@ -52,13 +52,13 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
     "puppeteer": "^2.1.1",
-    "react": "^16.13.0",
+    "react": "0.0.0-experimental-e5d06e34b",
     "react-app-polyfill": "^1.0.6",
     "react-app-rewire-uglifyjs": "^0.1.1",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-critical-css": "^2.1.0",
     "react-dev-utils": "^10.2.0",
-    "react-dom": "^16.13.0",
+    "react-dom": "0.0.0-experimental-e5d06e34b",
     "react-fullpage": "^0.1.19",
     "react-router-dom": "^5.1.2",
     "resolve": "1.15.0",
@@ -78,7 +78,7 @@
   ],
   "scripts": {
     "start": "node scripts/start.js",
-    "deploy" :"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "node scripts/build.js && gzip build/**/*.* --extension=gz --extension=br",
     "critical": "node scripts/critical.js",
     "test": "node scripts/test.js"

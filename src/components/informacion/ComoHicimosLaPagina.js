@@ -9,18 +9,7 @@ import JavaScript from '../../assets/img/javascript.svg'
 import LogoReact from '../../assets/img/reaccionar.svg'
 import Css from '../../assets/img/css-3.svg'
 
-if(localStorage.getItem('theme') === "dark") {
-	document.body.classList.toggle(localStorage.getItem('theme'));
-}
 
-const themeSwitcher = document.getElementById('theme-switcher');
-
-if(themeSwitcher){
-    themeSwitcher.onclick('click', function() {
-        document.body.classList.toggle('dark');
-      localStorage.setItem('theme', document.body.classList);
-    })    
-}
 
 export default function ComoHicimosLaPagina() {
     return (
@@ -47,7 +36,7 @@ export default function ComoHicimosLaPagina() {
                     <div className="bg-light shadow-sm mx-auto foto-d" style={{width: "80%", height: "300px", borderRadius: "21px 21px 0 0"}}>
                         <div className="container" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
                             <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto1} style={{float:"left", marginTop:"50px", marginLeft: "20px"}} focusable="false" role="img"></img>
-                            <p style={{margin:"0 auto"}}>
+                            <div style={{margin:"0 auto"}}>
                                 <div className="message-content bg-dark" style={{ fontSize: "15px",width: "40%", borderRadius:"21px 21px 21px 0", marginLeft: "130px"}}>
                                     <div className="contenedor">
                                         <div className="bd-dark" style={{marginTop:"70px"}}>
@@ -58,9 +47,9 @@ export default function ComoHicimosLaPagina() {
                                         </div>
                                     </div>
                                 </div>
-                            </p>
+                            </div>
                             <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"20px", marginRight: "20px"}} focusable="false" role="img"></img>
-                            <p style={{margin:"0 auto"}}>
+                            <div style={{margin:"0 auto"}}>
                                 <div className="message-content bg-dark" style={{ fontSize: "15px",width: "30%", borderRadius:"21px 21px 0 21px", marginLeft: "40%"}}>
                                     <div className="contenedor">
                                         <div className="bd-dark" style={{marginTop:"45px"}}>
@@ -71,7 +60,7 @@ export default function ComoHicimosLaPagina() {
                                         </div>
                                     </div>
                                 </div>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,7 +75,7 @@ export default function ComoHicimosLaPagina() {
                     <div className="bg-dark shadow-sm mx-auto" style={{width: "80%", height: "300px", borderRadius:"21px 21px 0 0"}}>
                         <div className="container bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
                             <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto3} style={{float:"left", marginTop:"50px", marginLeft: "10%"}} focusable="false" role="img"></img>
-                            <p style={{margin:"0 auto"}}>
+                            <div style={{margin:"0 auto"}}>
                                 <div className="message-content bg-light" style={{ fontSize: "15px",width: "40%", borderRadius:"21px 21px 21px 0", marginLeft: "135px"}}>
                                     <div className="contenedor">
                                         <div className="bd-light" style={{marginTop:"70px"}}>
@@ -97,7 +86,7 @@ export default function ComoHicimosLaPagina() {
                                         </div>
                                     </div>
                                 </div>
-                            </p>
+                            </div>
                             <div className="row" style={{marginTop:"60px", justifyContent:"center"}}>
                                 <div className="col-xs-6">
                                     <img className="bd-placeholder-img" width="60" height="60" src={JavaScript} focusable="false" role="img"></img>

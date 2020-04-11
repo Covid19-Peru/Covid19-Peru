@@ -7,7 +7,7 @@ import facebook from '../assets/img/facebook.svg';
 import '../assets/styles/css/NavBarStyle.css'
 import '../assets/styles/css/EstilosGenerales.css'
 
-export default function Navbar() {
+export default function Header() {
   return (
       <header>
 
