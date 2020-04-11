@@ -22,11 +22,11 @@ npm install
 
 Bajar nuevos cambios desde GitHub:
 ```bash
-git pull origin master
+git pull
 ```
 Subir nuevos cambios a GitHub :
 ```bash
-git push -u origin master
+git push -u
 ```
 ---
 
