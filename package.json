@@ -78,10 +78,12 @@
   ],
   "scripts": {
     "start": "node scripts/start.js",
-    "deploy": "gh-pages -d build",
-    "build": "node scripts/build.js && gzip build/**/*.* --extension=gz --extension=br",
+    "deploy": "node node_modules/gh-pages -d build",
+    "build": "node scripts/build.js",
+    "build-compression": "node scripts/build.js && node node_modules/gzip-cli build/**/*.* --extension=gz --extension=br",
     "critical": "node scripts/critical.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "github-upload": "node scripts/build.js && node node_modules/gzip-cli build/**/*.* --extension=gz --extension=br && node node_modules/gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
