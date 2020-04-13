@@ -38,7 +38,7 @@ function DatosCountry() {
     //console.log(prevState)
 
     return (
-        <div>
+        <>
             <section className="container text-center DatosPeru">
                 <div className="text-center">
 
@@ -120,7 +120,7 @@ function DatosCountry() {
                 </div>
             </section>
             
-        </div>
+        </>
     )
 }
 export default DatosCountry

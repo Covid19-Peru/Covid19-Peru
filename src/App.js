@@ -1,8 +1,8 @@
 import React, { Suspense, lazy } from 'react';
 import PantallaDeCarga from './components/PantallaDeCarga'
-import './Loading.css'
 import {BrowserRouter,Switch,Route,Redirect,HashRouter} from "react-router-dom";
-//const Navbar = lazy(() => import('./components/Navbar'));
+import { ThemeProvider } from 'theme-ui'
+import tema from './assets/styles/temas/theme'
 const Header = lazy(() => import('./components/Header'));
 const Footer = lazy(() => import('./components/Footer'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
@@ -16,22 +16,24 @@ function App (){
   
   return (
     <HashRouter>
-      <Suspense delayMs={3000} fallback={<PantallaDeCarga />}>
-        <Header />
-        <Switch>
-          <Suspense fallback={<div>holaaaa</div>}>
-            <Route exact path="/">
-              <DatosMundiales />
-              <DatosCountry />
-              <DatosRegionesPeru />
-            </Route>
-            <Route path="/about" component={AcercaDeLosDesarrolladores}/>
-            <Route path="/coide-source" component={ComoHicimosLaPagina}/>
-            <Route path="/prevencion" component={PrevenirElCovid19}/>
-          </Suspense>
-        </Switch>
-        <Footer />
-      </Suspense>
+      <ThemeProvider theme={tema}>
+        <Suspense fallback={<PantallaDeCarga />}>
+          <Header />
+          <Switch>
+            <Suspense fallback={<div>cargando..</div>}>
+              <Route exact path="/">
+                <DatosMundiales />
+                <DatosCountry />
+                <DatosRegionesPeru />
+              </Route>
+              <Route path="/about" component={AcercaDeLosDesarrolladores}/>
+              <Route path="/coide-source" component={ComoHicimosLaPagina}/>
+              <Route path="/prevencion" component={PrevenirElCovid19}/>
+            </Suspense>
+          </Switch>
+          <Footer />
+        </Suspense>
+      </ThemeProvider>
     </HashRouter>
   );
 }

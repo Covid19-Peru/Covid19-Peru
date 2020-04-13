@@ -28,7 +28,7 @@ function DatosMundiales() {
     }, [actualizarComponente]);
     //alert("10")
     return (
-        <div>
+        <>
             <section className="container DatosMundiales">
                 <div className=" text-center">
                     
@@ -87,7 +87,7 @@ function DatosMundiales() {
                     <hr></hr>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 export default DatosMundiales

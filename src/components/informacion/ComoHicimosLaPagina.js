@@ -13,13 +13,13 @@ import Css from '../../assets/img/css-3.svg'
 
 export default function ComoHicimosLaPagina() {
     return (
-        <div>
+        <>
             
-            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style={{color: 'black'}}>
                 <div className="product-device shadow-sm d-none d-md-block"></div>
                 <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
                 <div className="col-md-5 p-lg-5 mx-auto my-5">
-                    <h1 className="display-4 font-weight-normal">Hola!</h1>
+                    <h1 className="display-4 font-weight-normal" >Hola!</h1>
                     <p className="lead font-weight-normal">Soy Adrián Alva.</p>
                     <p className="lead font-weight-normal">Aquí te mostraremos como hicimos esta fantástica página web.</p>
                 </div>
@@ -65,7 +65,7 @@ export default function ComoHicimosLaPagina() {
                     </div>
                 </div>
 
-                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style={{color: 'black'}}>
                     <div className="my-3 p-3">
                         <h2 className="display-5">Segundo</h2>
                         <p className="lead">Herramientas Necesarias
@@ -102,6 +102,6 @@ export default function ComoHicimosLaPagina() {
                     </div>
                 </div>
             </div>            
-        </div>
+        </>
     )
 }
