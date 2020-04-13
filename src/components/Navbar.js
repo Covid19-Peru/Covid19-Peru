@@ -1,4 +1,5 @@
 import React from 'react';
+import ColorMode from './ColorMode'
 import {NavLink}  from 'react-router-dom'
 import icono from '../assets/img/coronavirus192.png'
 import twitter from '../assets/img/twitter.svg'
@@ -36,10 +37,7 @@ export default function Navbar() {
             <img className="facebook" src={facebook} alt="" />
             <img className="youtube" src={youtube} alt="" />
             <img className="twitter" src={twitter} alt="" />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" id="theme-switcher" 
-              onClick={()=>document.body.classList.toggle('dark')
-              } 
-            >Modo Oscuro</button>
+            <ColorMode/>
           </div>
         </nav>
       

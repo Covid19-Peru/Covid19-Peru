@@ -1,9 +1,12 @@
 import React, { Suspense, lazy } from 'react';
-import PantallaDeCarga from './components/PantallaDeCarga'
 import {BrowserRouter,Switch,Route,Redirect,HashRouter} from "react-router-dom";
+
 import { ThemeProvider } from 'theme-ui'
 import tema from './assets/styles/temas/theme'
+
+import PantallaDeCarga from './components/PantallaDeCarga'
 const Header = lazy(() => import('./components/Header'));
+const Navbar = lazy(() => import('./components/Navbar'));
 const Footer = lazy(() => import('./components/Footer'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
 const DatosCountry = lazy(() => import('./components/DatosCountry'));
@@ -18,7 +21,7 @@ function App (){
     <HashRouter>
       <ThemeProvider theme={tema}>
         <Suspense fallback={<PantallaDeCarga />}>
-          <Header />
+          <Navbar />
           <Switch>
             <Suspense fallback={<div>cargando..</div>}>
               <Route exact path="/">

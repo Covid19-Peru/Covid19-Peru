@@ -48,7 +48,7 @@ export default function ComoHicimosLaPagina() {
                                     
                                 </div>
                             </div>
-                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"20px", marginRight: "20px"}} focusable="false" role="img"></img>
+                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"70px", marginRight: "20px"}} focusable="false" role="img"></img>
                             <div>
                                 <div className="message-content bg-dark" style={{ fontSize: "15px",width: "30%", borderRadius:"21px 21px 0 21px", marginTop:"34px", height:"auto", width:"30%", float:"right", marginRight:"10px"}}>
                                     
@@ -73,7 +73,7 @@ export default function ComoHicimosLaPagina() {
                         </p>
                     </div>
                     <div className="bg-dark shadow-sm mx-auto" style={{width: "80%", height: "300px", borderRadius:"21px 21px 0 0"}}>
-                        <div className="container bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
+                        <div className="container bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0", padding: '5px'}}>
                             <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto3} style={{float:"left", marginTop:"40px", marginLeft: "6%"}} focusable="false" role="img"></img>
                             <div style={{margin:"0 auto"}}>
                                 <div className="message-content bg-light" style={{ fontSize: "15px", borderRadius:"21px 21px 21px 0", marginLeft: "130px", height:"auto", marginTop:"55px"}}>

@@ -9,22 +9,9 @@
   font-style: normal;
   font-display: block;
 }
-
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-facebook:before {
   content: "\ea90";
 }
@@ -37,39 +24,9 @@
 .icon-youtube:before {
   content: "\ea9d";
 }
-
-h1, label{
-  font-family: 'Merriweather', 'serif';
-}
-
-h2{
-  font-family: 'Playfair Display', serif;
-}
-
-.jumbotron{
-  background-color: white;
-}
-
 .d-block{
-  margin-top: 65px;
+  margin-top: 80px;
 }
-
-.contenedor{
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  position: relative;
-}
-
-.contenedor iframe{
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 .form-control{
   width: 60%;
   display: inline-block;
