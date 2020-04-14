@@ -1,18 +1,17 @@
 .navbar_css{
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     padding: .5rem 1rem;
+    top: 0;
     left: 0;
     right: 0;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .div_navigation{
     display: flex;
     margin: 0 auto;
     padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 0.5rem;
     position: relative;
     align-items: center;
     height: 100%;
@@ -27,8 +26,14 @@
     display: flex;
     text-decoration: none;
 }
+@media (max-width: 750px) {
+    .css_link_img {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}
 .css_logo{
-    height: 1.5rem;
+    height: 2rem;
     width: auto;
     max-width: none;
     margin: 0rem;
@@ -42,10 +47,8 @@
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;
-        margin: 20;
-        min-width: 0,
     }
-  }
+}
 
 .css_list{
     align-self: flex-end;
@@ -60,7 +63,6 @@
     margin-right: 0.5rem;
 }
 .css_nav_item_a{
-    padding-right: .5rem;
     padding-left: .5rem;
     border-bottom: 2px solid transparent;
     display: block;
@@ -78,5 +80,6 @@
     align-self: flex-end;
     display: block;
     position: relative;
-    color: #635e69;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }

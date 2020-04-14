@@ -22,7 +22,7 @@ function App (){
       <ThemeProvider theme={tema}>
         <Suspense fallback={<PantallaDeCarga />}>
           <Header />
-          <div className="contenido" style={{paddingTop: '80px'}}>
+          <div className="contenido" style={{paddingTop: '100px'}}>
             <Switch>
               <Suspense fallback={<div>cargando..</div>}>
                 <Route exact path="/">

@@ -15,7 +15,7 @@ export default function ComoHicimosLaPagina() {
     return (
         <>
             
-            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style={{color: 'black'}}>
+            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
                 <div className="product-device shadow-sm d-none d-md-block"></div>
                 <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
                 <div className="col-md-5 p-lg-5 mx-auto my-5">

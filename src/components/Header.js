@@ -2,10 +2,8 @@
 import { jsx } from "theme-ui"
 import React from 'react';
 import ColorMode from './ColorMode'
-import { useColorMode } from "theme-ui"
 import {NavLink,Link}  from 'react-router-dom'
 import logo from '../assets/img/covid_19.svg'
-import logoInverted from '../assets/img/coronavirus192.png'
 import '../assets/styles/css/NavBarStyle.css'
 import { GoMarkGithub as GithubIcon } from "react-icons/go"
 import {
@@ -15,21 +13,19 @@ import {
 
 
 const SocialNavItem = ({ href, title, children }) => (
-  <a href={href} title={title} className="css_icon">
+  <a href={href} title={title} className="css_icon" sx={{color: 'socialLink'}}>
     {children} 
   </a>
 )
 const NavItem = ({ linkTo, children, color}) => (  
   <li className="css_nav_item" >
-    <Link to={linkTo} className="css_nav_item_a" style={{color:color}}>
+    <Link to={linkTo} className="css_nav_item_a" sx={{color:'link'}}>
       {children}
     </Link>
   </li>
 )
 
 export default function Header() {
-  const [colorMode] = useColorMode()
-  const color_link = colorMode ==='default' ? '#48434f' : 'rgba(255,255,255,0.6)'
   return (
     <>
       <header sx={{ bg: 'background'}} className="navbar_css">
@@ -39,9 +35,9 @@ export default function Header() {
           </Link>
           <nav className="nav_navigation">
             <ul className="css_list">
-              <NavItem linkTo={'/about'} color={color_link}>Datos Mundiales</NavItem>
-              <NavItem linkTo={'/coide-source'} color={color_link}>Datos Mundiales</NavItem>
-              <NavItem linkTo={'/prevencion'} color={color_link}>Datos Mundiales</NavItem>
+              <NavItem linkTo={'/about'}>Datos Mundiales</NavItem>
+              <NavItem linkTo={'/coide-source'}>Datos Paises</NavItem>
+              <NavItem linkTo={'/prevencion'}>Datos Regiones</NavItem>
             </ul>
           </nav>
           <div className="css_icons">
