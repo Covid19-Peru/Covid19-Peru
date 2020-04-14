@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
-import logo from '../assets/img/logo.svg'
+import logo from '../assets/img/covid_19.svg'
 import '../assets/styles/css/style.css'
 
 
@@ -34,7 +34,7 @@ function DatosMundiales() {
                     
                     <section className="container text-center">
                         <div className="container">
-                            <img className="d-block mx-auto mb-4" src={logo} alt="imgCovid19" />
+                            <img className="d-block mx-auto mb-4" src={logo} alt="imgCovid19" style={{maxWidth:'35%'}}/>
                             <h1 className="display-4">Coronavirus en América Latina</h1>
                             <p className="lead">Aquí encontrarás información y noticias sobre el COVID-19 en Perú y en el mundo.🦠</p>
                             <p className="text-muted"><em>(Mantenemos actualizada nuestra información a diario)</em> </p>

@@ -32,6 +32,7 @@ export default function Header() {
         <div className="div_navigation">
           <Link to="/" className="css_link_img">
             <img src={logo} className="css_logo" />
+            <span sx={{fontWeight:'bold',color:'text'}}>Covid19</span>
           </Link>
           <nav className="nav_navigation">
             <ul className="css_list">
@@ -41,14 +42,11 @@ export default function Header() {
             </ul>
           </nav>
           <div className="css_icons">
-            <SocialNavItem href="https://github.com/gatsbyjs/gatsby" title="GitHub" >
+            <SocialNavItem href="https://github.com/Covid19-Peru/Covid19-Peru" title="GitHub" >
               <GithubIcon />
             </SocialNavItem>
-            <SocialNavItem href="https://twitter.com/gatsbyjs" title="Twitter">
+            <SocialNavItem href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" title="Twitter">
               <TwitterIcon />
-            </SocialNavItem>
-            <SocialNavItem href="https://gatsby.dev/discord" title="Discord">
-              <DiscordIcon />
             </SocialNavItem>
             <ColorMode></ColorMode>
           </div>
