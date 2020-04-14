@@ -21,19 +21,21 @@ function App (){
     <HashRouter>
       <ThemeProvider theme={tema}>
         <Suspense fallback={<PantallaDeCarga />}>
-          <Navbar />
-          <Switch>
-            <Suspense fallback={<div>cargando..</div>}>
-              <Route exact path="/">
-                <DatosMundiales />
-                <DatosCountry />
-                <DatosRegionesPeru />
-              </Route>
-              <Route path="/about" component={AcercaDeLosDesarrolladores}/>
-              <Route path="/coide-source" component={ComoHicimosLaPagina}/>
-              <Route path="/prevencion" component={PrevenirElCovid19}/>
-            </Suspense>
-          </Switch>
+          <Header />
+          <div className="contenido" style={{paddingTop: '80px'}}>
+            <Switch>
+              <Suspense fallback={<div>cargando..</div>}>
+                <Route exact path="/">
+                  <DatosMundiales />
+                  <DatosCountry />
+                  <DatosRegionesPeru />
+                </Route>
+                <Route path="/about" component={AcercaDeLosDesarrolladores}/>
+                <Route path="/coide-source" component={ComoHicimosLaPagina}/>
+                <Route path="/prevencion" component={PrevenirElCovid19}/>
+              </Suspense>
+            </Switch>
+          </div>
           <Footer />
         </Suspense>
       </ThemeProvider>

@@ -1,29 +1,82 @@
-.icono{
-    width: 35px;
-    margin-right: 12px;
+.navbar_css{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
 }
-
-.twitter{
-    width: 30px;
+.div_navigation{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
-
-.youtube{
-    width: 30px;
-    margin-right: 10px;
+.css_link_img{
+    margin-right: 0.75rem;
+    width: auto;
+    overflow: visible;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
 }
-
-.facebook{
-    width: 30px;
-    margin-right: 15px;
+.css_logo{
+    height: 1.5rem;
+    width: auto;
+    max-width: none;
+    margin: 0rem;
 }
-
-.navbar-brand{
-    font-family: 'Roboto Slab', serif;
-    margin-right: 5px;
-    margin-top: 5px;
+.nav_navigation{
+    display: none;
 }
+@media (min-width: 750px) {
+    .nav_navigation {
+        align-self: flex-end;
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin: 20;
+        min-width: 0,
+    }
+  }
 
-.nav-link{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 4px;
+.css_list{
+    align-self: flex-end;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    display: flex;
+}
+.css_nav_item{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.css_nav_item_a{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    border-bottom: 2px solid transparent;
+    display: block;
+    font-size: 3;
+    position: relative;
+    text-decoration: none;
+    line-height: calc(3.6rem);
+}
+.css_icons{
+    display: flex;
+    box-sizing: inherit;
+    line-height: calc(3.6rem);
+}
+.css_icon{
+    align-self: flex-end;
+    display: block;
+    position: relative;
+    color: #635e69;
 }

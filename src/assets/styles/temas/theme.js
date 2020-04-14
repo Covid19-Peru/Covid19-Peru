@@ -5,12 +5,15 @@ export default {
       primary: '#07c',
       modes: {
         dark: {
-          text: '#fff',
+          text: 'rgba(255,255,255,0.8)',
           background: '#000',
           primary: '#0cf',
         }
       }
     },
-    fonts: {
-    },
+    styles: {
+      a: {
+        color: 'background',
+      }
+    }
   }
