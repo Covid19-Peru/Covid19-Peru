@@ -17,7 +17,7 @@ const SocialNavItem = ({ href, title, children }) => (
     {children} 
   </a>
 )
-const NavItem = ({ linkTo, children, color}) => (  
+const NavItem = ({ linkTo, children}) => (  
   <li className="css_nav_item" >
     <Link to={linkTo} className="css_nav_item_a" sx={{color:'link'}}>
       {children}
@@ -28,7 +28,7 @@ const NavItem = ({ linkTo, children, color}) => (
 export default function Header() {
   return (
     <>
-      <header sx={{ bg: 'navbar'}} className="navbar_css" style={{}}> 
+      <header sx={{ bg: 'background', borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}} className="navbar_css"> 
         <div className="div_navigation">
           <Link to="/" className="css_link_img">
             <img src={logo} className="css_logo" />

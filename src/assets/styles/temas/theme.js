@@ -6,6 +6,7 @@ export default {
       link: '#48434f',
       socialLink: '#b7b5bd',
       navbar: '#fff',
+      borderNavbar:'#ccc0c0',
       modes: {
         dark: {
           text: 'rgba(255,255,255,0.8)',
@@ -14,6 +15,7 @@ export default {
           link: 'rgba(255,255,255,0.6)',
           socialLink: '#635e69',
           navbar: '#242526',
+          borderNavbar:'#36313d'
         }
       }
     },
