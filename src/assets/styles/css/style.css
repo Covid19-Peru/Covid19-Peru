@@ -28,3 +28,11 @@
   width: 60%;
   display: inline-block;
 }
+.logo{
+  max-width: 32%
+}
+@media (max-width: 750px) {
+  .logo{
+    max-width: 80%
+  }
+}
