@@ -1,5 +1,5 @@
 import React from 'react';
-import ColorMode from './ColorMode'
+import DarkMode from './DarkMode'
 import {NavLink}  from 'react-router-dom'
 import icono from '../assets/img/coronavirus192.png'
 import twitter from '../assets/img/twitter.svg'
@@ -37,7 +37,7 @@ export default function Navbar() {
             <img className="facebook" src={facebook} alt="" />
             <img className="youtube" src={youtube} alt="" />
             <img className="twitter" src={twitter} alt="" />
-            <ColorMode/>
+            <DarkMode/>
           </div>
         </nav>
       

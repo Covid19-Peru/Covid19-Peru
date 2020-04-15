@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 import React from 'react';
-import ColorMode from './ColorMode'
+import DarkMode from './DarkMode'
 import {NavLink,Link}  from 'react-router-dom'
 import logo from '../assets/img/covid_19.svg'
 import '../assets/styles/css/NavBarStyle.css'
@@ -28,7 +28,7 @@ const NavItem = ({ linkTo, children, color}) => (
 export default function Header() {
   return (
     <>
-      <header sx={{ bg: 'background'}} className="navbar_css" style={{}}> 
+      <header sx={{ bg: 'navbar'}} className="navbar_css" style={{}}> 
         <div className="div_navigation">
           <Link to="/" className="css_link_img">
             <img src={logo} className="css_logo" />
@@ -48,7 +48,7 @@ export default function Header() {
             <SocialNavItem href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" title="Twitter">
               <TwitterIcon />
             </SocialNavItem>
-            <ColorMode></ColorMode>
+            <DarkMode />
           </div>
         </div>
       </header>
