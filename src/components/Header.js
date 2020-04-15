@@ -28,7 +28,7 @@ const NavItem = ({ linkTo, children, color}) => (
 export default function Header() {
   return (
     <>
-      <header sx={{ bg: 'background'}} className="navbar_css">
+      <header sx={{ bg: 'background'}} className="navbar_css" style={{}}> 
         <div className="div_navigation">
           <Link to="/" className="css_link_img">
             <img src={logo} className="css_logo" />
