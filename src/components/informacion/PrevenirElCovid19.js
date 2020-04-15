@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import React from 'react'
 import '../../assets/styles/css/social.css'
 import '../../assets/styles/css/Prevencion.css'
@@ -43,7 +45,7 @@ export default function PrevenirElCovid19() {
             <hr></hr>
             <section className="DatosRegionesPeru jumbotron text-center">
                 <div className=" text-center">
-                    <h2 className="display-4" style={{color:'black'}}><b>¿Cómo prevenir el Coronavirus (COVID-19)?</b> </h2>
+                    <h2 className="display-4" sx={{color:'text'}}><b>¿Cómo prevenir el Coronavirus (COVID-19)?</b> </h2>
                     <div className="contenedor">
                         <iframe width="580" height="350" src="https://www.youtube.com/embed/uvOWHLab7Gg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
