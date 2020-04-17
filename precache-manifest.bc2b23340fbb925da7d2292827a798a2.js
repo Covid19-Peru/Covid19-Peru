@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9758957663697af8a89070d2b6c6523",
+    "revision": "5dc4f3acbf575cd1093d14677d579251",
     "url": "/Covid19-Peru/index.html"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/css/10.b3abbe3d.chunk.css"
   },
   {
-    "revision": "1ec6871a1c0056084f66",
+    "revision": "b4099f015defe173d35f",
     "url": "/Covid19-Peru/static/css/11.3d32d9ea.chunk.css"
   },
   {
-    "revision": "2762b9feb864989fb078",
+    "revision": "f7e4d0f1abb5f1b32cc5",
     "url": "/Covid19-Peru/static/css/12.3d32d9ea.chunk.css"
   },
   {
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.0.0e5e2b46.production.chunk.min.js"
   },
   {
-    "revision": "acc0face86921f192050",
-    "url": "/Covid19-Peru/static/js/index.04411e49.production.min.js"
-  },
-  {
     "revision": "d43d7670f8acb2ed2d59",
     "url": "/Covid19-Peru/static/js/index.1.6a573a3e.production.chunk.min.js"
   },
@@ -60,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.10.0a1b3610.production.chunk.min.js"
   },
   {
-    "revision": "1ec6871a1c0056084f66",
-    "url": "/Covid19-Peru/static/js/index.11.ce1cc8dd.production.chunk.min.js"
+    "revision": "b4099f015defe173d35f",
+    "url": "/Covid19-Peru/static/js/index.11.047923da.production.chunk.min.js"
   },
   {
-    "revision": "2762b9feb864989fb078",
-    "url": "/Covid19-Peru/static/js/index.12.e9f4a0ba.production.chunk.min.js"
+    "revision": "f7e4d0f1abb5f1b32cc5",
+    "url": "/Covid19-Peru/static/js/index.12.6aec5be0.production.chunk.min.js"
   },
   {
     "revision": "4a67937b61e443bdf492",
@@ -86,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bdc1c7b228f20bc560a2",
     "url": "/Covid19-Peru/static/js/index.5.f19c92b3.production.chunk.min.js"
+  },
+  {
+    "revision": "e1ede691269725b6976e",
+    "url": "/Covid19-Peru/static/js/index.5983a4d8.production.min.js"
   },
   {
     "revision": "be7320f586b8144250ea",
