@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 import logo from '../assets/img/covid_19.svg'
@@ -52,34 +54,33 @@ function DatosMundiales() {
                             
                             
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-4" sx={{color:'casosCoronavirus'}}>
                                     <h2>Casos de Coronavirus</h2>
                                     <p>Todos los casos confirmados de <code>Covid-19</code> en todo el mundo. </p>
-                                    <div className="cases" style={{color:"purple" }}>
-                                    {loadingMundial ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{dataMundial.cases}</h4>}
+                                    <div className="cases">
+                                        {loadingMundial ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{dataMundial.cases}</h4>}
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-md-4" sx={{color:'totalMuertes'}}>
                                     <h2>Muertes</h2>
                                     <p>La cantidad de muertes causadas por el <code>Covid-19</code> en todo el mundo.</p>
-                                    <div className="deaths" style={{color:"red" }}>
-                                    {loadingMundial ?<div className="spinner-border text-danger" role="status"></div>  : <h4 className="">{dataMundial.deaths}</h4>}
+                                    <div className="deaths">
+                                        {loadingMundial ?<div className="spinner-border text-danger" role="status"></div>  : <h4 className="">{dataMundial.deaths}</h4>}
                                     </div>
                                 </div>
-                                <div className="col-md-4">
-                                    <h2>Casos recuperados</h2>
+                                <div className="col-md-4" sx={{color:'casosRecuperados'}}>
+                                    <h2>Casos Recuperados</h2>
                                     <p>La cantidad de personas que se recuperaron del <code>Covid-19</code></p>
-                                    <div className="recovered" style={{color:"green" }}>
+                                    <div className="recovered">
                                     {loadingMundial ? <div className="spinner-border text-success" role="status"></div> : <h4 className="">{dataMundial.recovered}</h4>}
                                     </div>
                                 </div>
 
                                 <div className="social">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
-                                    <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
-
-                                </ul>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
+                                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
+                                    </ul>
                                 </div> 
                             </div>
                         </div>

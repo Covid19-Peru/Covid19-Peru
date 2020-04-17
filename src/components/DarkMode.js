@@ -8,7 +8,7 @@ export default function DarkMode(props) {
   const [colorMode, setColorMode] = useColorMode()
   return (
     <>
-        <a href="#" onClick={e => {setColorMode(colorMode === 'default' ? 'dark' : 'default')}} sx={{color: 'socialLink',fontSize: '1.25rem'}}>
+        <a onClick={e => {setColorMode(colorMode === 'default' ? 'dark' : 'default')}} sx={{color: 'socialLink',fontSize: '1.25rem',paddingLeft: '0.5rem',paddingRight: '0.5rem'}}>
           {colorMode === 'default' ? <Luna/> : <Sol/>}
         </a>
     </>
