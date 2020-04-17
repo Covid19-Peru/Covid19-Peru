@@ -16,7 +16,7 @@ export default {
       casosRecuperados:'#589a58',
       modes: {
         dark: {
-          text: '#ffffffa6',
+          text: '#a09a9a',
           background: '#000',
           primary: '#0cf',
           link: 'rgba(255,255,255,0.6)',
@@ -25,11 +25,11 @@ export default {
           borderNavbar:'#36313d',
           //CasosCoronavirus
           casosCoronavirus:'#80427f',
-          nuevosCasos:'#5a5adc94',
-          totalMuertes:'#f54545a3',
-          nuevasMuertes:'#eaab5c78',
+          nuevosCasos:'#8080ab',
+          totalMuertes:'#a75f5f',
+          nuevasMuertes:'#92724b',
           casosSerios:'',
-          casosRecuperados:'#2273229c',
+          casosRecuperados:'#628462',
         }
       }
     },

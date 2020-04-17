@@ -43,12 +43,14 @@ function DatosMundiales() {
                         </div>
 
                     </section>
-                    <hr></hr>
+                    
+                    <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
+
                     <section className="container text-center container">
                         <div className="container">
-                            <h1 className="display-4 container">Datos del Mundo 🗺️</h1>
+                            <h1 className="display-4 container">Datos del Mundo</h1>
+                            <h1>🗺️</h1>
                             <div className="my-3 p-3">
-                                <p className="text-muted"><em>(Mantenemos actualizada nuestra información a diario)</em></p>
                                 <button className="btn btn-primary" onClick={() => setActualizarComponente(!actualizarComponente)} >Actualizar información ahora</button>
                             </div>
                             
@@ -85,7 +87,7 @@ function DatosMundiales() {
                             </div>
                         </div>
                     </section>
-                    <hr></hr>
+                    <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                 </div>
             </section>
         </>

@@ -31,6 +31,9 @@
 .logo{
   max-width: 32%
 }
+.col-md-4{
+  padding: 15px;
+}
 @media (max-width: 750px) {
   .logo{
     max-width: 80%
