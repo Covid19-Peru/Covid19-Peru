@@ -5,7 +5,6 @@ import axios from 'axios';
 import logo from '../assets/img/covid_19.svg'
 import '../assets/styles/css/style.css'
 
-
 //alert("1")
 function DatosMundiales() {
     //alert("2")
@@ -50,7 +49,7 @@ function DatosMundiales() {
                         <div className="container">
                             <h1 className="display-4 container">Datos del Mundo</h1>
                             <h1>🗺️</h1>
-                            <div className="my-3 p-3">
+                            <div className="my-3">
                                 <button className="btn btn-primary" onClick={() => setActualizarComponente(!actualizarComponente)} >Actualizar información ahora</button>
                             </div>
                             
@@ -87,7 +86,6 @@ function DatosMundiales() {
                             </div>
                         </div>
                     </section>
-                    <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                 </div>
             </section>
         </>

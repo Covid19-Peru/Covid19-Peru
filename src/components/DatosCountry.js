@@ -43,7 +43,7 @@ function DatosCountry() {
         <>
             <section className="container text-center DatosPeru">
                 <div className="text-center">
-
+                    <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                     <div className="my-3 container">
                         {loadingCounrty ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Datos de: {datosCountry[indexDatosCountry].country}</h1>}
                             <div className="container form-group">
