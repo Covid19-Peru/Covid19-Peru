@@ -19,7 +19,7 @@ export default function AcercaDeLosDesarrolladores() {
                        Me caracterizo principalmente por ayudar a mi equipo en completar las metas propuestas. También he liderado proyectos de este tipo, así como, proyectos de Software Libre.
                        Me gusta mucho la programación, así como, el diseño de interfaces de Páginas Web.
                     </p>
-                    <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/adrianalvatiznado/" target="_blank" role="button">Ver más detalles »</a></p>
+                    <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/adrianalvatiznado/" target="_blank" rel="noopener noreferrer" role="button">Ver más detalles »</a></p>
                 </div>
                 <div className="col-lg-4">
                 <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto2} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
@@ -29,7 +29,7 @@ export default function AcercaDeLosDesarrolladores() {
                     <p>Comencé este proyecto para brindar información a las personas. 
                        Me caracterizo por liderar proyectos, compartir mis conocimientos, y ayudar a mi equipo para completar las metas propuestas. 
                        Soy apasionado por Javascript.</p>
-                    <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/cuevacelis/" target="_blank" role="button">Ver más detalles »</a></p>
+                    <p><a className="btn btn-secondary" href="https://www.linkedin.com/in/cuevacelis/" target="_blank" rel="noopener noreferrer" role="button">Ver más detalles »</a></p>
                 </div>
                 <div className="col-lg-4">
                     <img className="bd-placeholder-img rounded-circle" width="140" height="140" src={Foto3} preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></img>
@@ -39,13 +39,13 @@ export default function AcercaDeLosDesarrolladores() {
                         <p> </p> 
                         <p>Comencé principalmente este proyecto para brindar información a las personas sobre este virus llamado COVID-19.
                             Me gusta mucho diseño de interfaces de Paginas Web.</p>
-                        <p><a className="btn btn-secondary" href="https://pe.linkedin.com/in/anderson-nolberto-perales-l%C3%B3pez-8655b5193?trk=people-guest_people_search-card" target="_blank" role="button">Ver más detalles »</a></p>
+                        <p><a className="btn btn-secondary" href="https://pe.linkedin.com/in/anderson-nolberto-perales-l%C3%B3pez-8655b5193?trk=people-guest_people_search-card" target="_" rel="noopener noreferrer" role="button">Ver más detalles »</a></p>blank
                 </div>
 
                 <div className="social">
                     <ul>
-                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" className="icon-facebook"></a></li>
-                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" className="icon-twitter"></a></li>
+                        <li><a href="https://www.facebook.com/minsaperu/" target="_blank" rel="noopener noreferrer" className="icon-facebook"></a></li>
+                        <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer" className="icon-twitter"></a></li>
 
                     </ul>
                 </div>  

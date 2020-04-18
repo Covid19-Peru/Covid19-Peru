@@ -8,7 +8,6 @@ import '../assets/styles/css/NavBarStyle.css'
 import { GoMarkGithub as GithubIcon } from "react-icons/go"
 import {
   FaTwitter as TwitterIcon,
-  FaDiscord as DiscordIcon,
 } from "react-icons/fa"
 
 

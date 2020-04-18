@@ -6,7 +6,6 @@ import tema from './assets/styles/temas/theme'
 
 import PantallaDeCarga from './components/PantallaDeCarga'
 const Header = lazy(() => import('./components/Header'));
-const Navbar = lazy(() => import('./components/Navbar'));
 const Footer = lazy(() => import('./components/Footer'));
 const DatosMundiales = lazy(() => import('./components/DatosMundiales'));
 const DatosCountry = lazy(() => import('./components/DatosCountry'));

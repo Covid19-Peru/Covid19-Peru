@@ -6,7 +6,7 @@ function PantallaDeCarga() {
     return (
         <div className="Loading">
             <div>
-                <img src={Imagen_De_Carga}></img>
+                <img src={Imagen_De_Carga} alt="Pantalla de Carga"></img>
                 <h1>Cargando ...</h1>
                 <div className="d-flex justify-content-center">
                     <div className="spinner-border text-info" role="status">
