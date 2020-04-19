@@ -37,11 +37,10 @@ function DatosCountry() {
         }
         ObtensionDatos();
     }, [actualizarComponente]);
-    //console.log(prevState)
 
     return (
         <>
-            <section className="container text-center DatosPeru">
+            <section className="container text-center DatosCountry">
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                     <div className="my-3 container">
@@ -49,13 +48,13 @@ function DatosCountry() {
                             <div className="container form-group">
                                 <select id="select_country" value={indexDatosCountry} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)} sx={{backgroundColor:'background',color:'text'}}>
                                     {
-                                        loadingCounrty ?
+                                        loadingCounrty
+                                        ?
                                             <option>Obteniendo datos ...</option>
                                         :
                                         datosCountry.map((datoCountry,index) => (
                                             <option key={index} value={index}>{datoCountry.country +" - Top: "+(index+1)}</option>
-                                            )
-                                        )
+                                        ))
                                     }
                                 </select>
                             </div>
@@ -118,7 +117,6 @@ function DatosCountry() {
                     
                 </div>
             </section>
-            
         </>
     )
 }
