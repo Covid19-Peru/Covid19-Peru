@@ -7,7 +7,7 @@ import '../assets/styles/css/style.css'
 
 function DatosRegionesPeru() {
     const [datosRegiones, setDatosRegiones] = useState([{Country:'',Provinces:{}}]);
-    const [indexDatosRegiones, setIndexDatosRegiones] = useState(0);
+    const [indexDatosRegiones, setIndexDatosRegiones] = useState('AMAZONAS');
     const [loadingRegiones, setLoadingRegiones] = useState(true);
     const [actualizarComponente, setActualizarComponente] = useState(false);
 
@@ -23,11 +23,23 @@ function DatosRegionesPeru() {
         ObtensionDatos();
     }, [actualizarComponente]);
 
+    let date = new Date()
+    let day = date.getDate()
+    let month = date.getMonth() + 1
+    let year = date.getFullYear()
+    if(day<10)
+        day='0'+day; 
+    if(month < 10)
+        month='0'+month
+    
+    const fecha=`${day}-${month}-${year}`
+
     return (
         <>
             <section className="container text-center DatosRegiones">
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
+                    <h1 style={{color:'red'}}>SECCIÓN EN CONSTRUCCIÓN</h1>
                     <div className="my-3 container">
                         {loadingRegiones ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Region de Peru: {datosRegiones.Provinces}</h1>}
                             <div className="container form-group">
@@ -39,7 +51,7 @@ function DatosRegionesPeru() {
                                         :
                                         (datosRegiones).map( (datoRegion) =>(
                                             Object.keys(datoRegion.Provinces).map( (provincia,index)=>(
-                                                <option key={index} value={index}>{provincia}</option>
+                                                <option key={index} value={provincia}>{provincia}</option>
                                             ))
                                         ))
                                     }
@@ -49,9 +61,9 @@ function DatosRegionesPeru() {
                     </div>
                     
                     <div className="container">
-                            <div className="text-center">
-                                <h2>Proximamente Disponible</h2>
-                            </div>
+                        <div className="text-center" sx={{color:'casosCoronavirus'}}>
+                            {loadingRegiones ? <h2>Cargando...</h2>  : <h2> Numero de Casos: {datosRegiones[0].Provinces[indexDatosRegiones][`${fecha}`]}</h2>}
+                        </div>
                     </div>
                     
                 </div>
