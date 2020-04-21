@@ -4,6 +4,7 @@ import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 import logo from '../assets/img/covid_19.svg'
 import '../assets/styles/css/style.css'
+import '../assets/styles/css/social.css'
 
 //alert("1")
 function DatosMundiales() {
@@ -36,9 +37,8 @@ function DatosMundiales() {
                     <section className="container text-center">
                         <div className="container">
                             <img className="d-block mx-auto mb-4 logo" src={logo} alt="imgCovid19"/>
-                            <h1 className="display-4">Información del Covid-19</h1>
+                            <h1 className="titulo">Datos del Covid-19</h1>
                             <p className="lead">Aquí encontrarás información y noticias sobre el COVID-19 en Perú y en el mundo.</p>
-                            <span role="img" aria-label="virus">🦠</span>
                             <p className="text-muted"><em>(Mantenemos actualizada nuestra información a diario)</em> </p>
                         </div>
 
@@ -48,7 +48,7 @@ function DatosMundiales() {
 
                     <section className="container text-center container">
                         <div className="container">
-                            <h1 className="display-4 container">Datos del Mundo</h1>
+                            <h1 className="titulo-seccion">Datos del Mundo</h1>
                             <span role="img" aria-label="map">🗺️</span>
                             <div className="my-3">
                                 <button className="btn btn-primary" onClick={() => setActualizarComponente(!actualizarComponente)} >Actualizar información ahora</button>

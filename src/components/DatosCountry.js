@@ -44,9 +44,9 @@ function DatosCountry() {
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                     <div className="my-3 container">
-                        <h1 className="display-4">Selecciona un País</h1>
+                        <h1 className="titulo-seccion">Selecciona tu País</h1>
                             <div className="container form-group">
-                                <select id="select_country" value={indexDatosCountry} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)} sx={{backgroundColor:'background',color:'text'}}>
+                                <select id="select_country" value={indexDatosCountry} data-live-search="true" data-show-subtext="true" className="custom-select" onChange={e => setIndexDatosCountry(e.currentTarget.value)} sx={{backgroundColor:'transparent',color:'text', maxWidth: '300px'}}>
                                     {
                                         loadingCounrty
                                         ?

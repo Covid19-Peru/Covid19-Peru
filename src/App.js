@@ -3,6 +3,7 @@ import {BrowserRouter,Switch,Route,Redirect,HashRouter} from "react-router-dom";
 
 import { ThemeProvider } from 'theme-ui'
 import tema from './assets/styles/temas/theme'
+import './assets/styles/css/fonts.css'
 
 import PantallaDeCarga from './components/PantallaDeCarga'
 const Header = lazy(() => import('./components/Header'));

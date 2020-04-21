@@ -2,7 +2,6 @@
 import { jsx } from "theme-ui"
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../assets/styles/css/social.css'
 import '../assets/styles/css/style.css'
 import moment from 'moment'
 function DatosRegionesPeru() {
@@ -33,17 +32,27 @@ function DatosRegionesPeru() {
         const fechaSeleccionada=restarFecha(fecha).format('DD-MM-YYYY')
         return fechaSeleccionada
     }
+    const DatosDepartamento = () =>{
+        try{
+            let datoDepartamentoPeru = datosRegiones[0].Provinces[indexDatosRegiones][fecha()]
+            if(typeof datoDepartamentoPeru !== 'number'){
+                console.error("Parece que devuelve otro tipo de dato diferente a number")
+                datoDepartamentoPeru = 'Parece que no hay datos :('
+            }
+            return datoDepartamentoPeru
+        }catch (error){
+            console.error("Error Datos Departamento"+error)
+        }
+    }
     return (
         <>
             <section className="container text-center DatosRegiones">
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
-                    <h1 style={{color:'red'}}>SECCIÓN EN CONSTRUCCIÓN</h1>
-                    <p className="text-muted"><em>(Puede tener algunos errores)</em> </p>
                     <div className="my-3 container">
-                        {loadingRegiones ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Región del Perú: {datosRegiones.Provinces}</h1>}
+                        <h1 className="titulo-seccion">Selecciona tu Departamento</h1>
                             <div className="container form-group">
-                                <select id="select_country" value={indexDatosRegiones} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosRegiones(e.currentTarget.value)} sx={{backgroundColor:'background',color:'text'}}>
+                                <select id="select_country" value={indexDatosRegiones} data-live-search="true" data-show-subtext="true" className="custom-select" onChange={e => setIndexDatosRegiones(e.currentTarget.value)} sx={{backgroundColor:'transparent', color:'text', maxWidth: '200px'}}>
                                     {
                                         loadingRegiones
                                         ?
@@ -69,7 +78,7 @@ function DatosRegionesPeru() {
                                 :
                                 <>
                                     <h2> Casos de Coronavirus</h2>
-                                    <h3>{datosRegiones[0].Provinces[indexDatosRegiones][fecha()]}</h3>
+                                    <h3>{DatosDepartamento()}</h3>
                                 </>
                             }
                         </div>
