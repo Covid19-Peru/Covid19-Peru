@@ -12,7 +12,7 @@ export default {
       nuevosCasos:'#5e5ede',
       totalMuertes:'#e04f4f',
       nuevasMuertes:'#ea870bc7',
-      casosSerios:'',
+      casosSerios:'#36313d',
       casosRecuperados:'#589a58',
       modes: {
         dark: {
@@ -28,14 +28,9 @@ export default {
           nuevosCasos:'#8080ab',
           totalMuertes:'#a75f5f',
           nuevasMuertes:'#92724b',
-          casosSerios:'',
+          casosSerios:'#a09a9a',
           casosRecuperados:'#628462',
         }
-      }
-    },
-    styles: {
-      a: {
-        color: 'background',
       }
     }
   }

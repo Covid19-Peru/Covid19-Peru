@@ -44,7 +44,7 @@ function DatosCountry() {
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                     <div className="my-3 container">
-                        {loadingCounrty ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Datos de: {datosCountry[indexDatosCountry].country}</h1>}
+                        <h1 className="display-4">Selecciona un País</h1>
                             <div className="container form-group">
                                 <select id="select_country" value={indexDatosCountry} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosCountry(e.currentTarget.value)} sx={{backgroundColor:'background',color:'text'}}>
                                     {
@@ -108,8 +108,16 @@ function DatosCountry() {
 
                             <div className="social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/minsaperu/" target="_blank" rel="noopener noreferrer" className="icon-facebook"></a></li>
-                                    <li><a href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer" className="icon-twitter"></a></li>
+                                    <li>
+                                        <a aria-label="facebook" href="https://www.facebook.com/minsaperu/" target="_blank" rel="noopener noreferrer" className="icon-facebook">
+                                            <i  aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a aria-label="twitter" href="https://twitter.com/Minsa_Peru?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer" className="icon-twitter">
+                                            <i aria-hidden="true"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>    
                         </div>

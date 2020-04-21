@@ -2,14 +2,12 @@ import React from 'react';
 import '../../assets/styles/css/ComoHicimosLaPagina.css'
 import Foto1 from '../../assets/img/Un_wapo.jpg'
 import Foto2 from '../../assets/img/jose-cueva-celis.jpg'
+import Foto3 from '../../assets/img/ElPapiChurro.jpg'
 import Conversacion from '../../assets/img/conversacion.svg'
 import Herramienta from '../../assets/img/herramienta.svg'
-import Foto3 from '../../assets/img/ElPapiChurro.jpg'
 import JavaScript from '../../assets/img/javascript.svg'
 import LogoReact from '../../assets/img/reaccionar.svg'
 import Css from '../../assets/img/css-3.svg'
-
-
 
 export default function ComoHicimosLaPagina() {
     return (
@@ -30,17 +28,17 @@ export default function ComoHicimosLaPagina() {
                     <div className="my-3 py-3">
                         <h2 className="display-5">Primero</h2>
                         <p className="lead" style={{fontSize: "20px"}}>Coordinación de Trabajo
-                            <img src={Conversacion} width="50" height="50" style={{marginLeft: "10px"}}></img>
+                            <img src={Conversacion} alt="conversacion" width="50" height="50" style={{marginLeft: "10px"}}></img>
                         </p>
                     </div>
                     <div className="bg-light shadow-sm mx-auto foto-d" style={{width: "80%", height: "300px", borderRadius: "21px 21px 0 0"}}>
                         <div className="container" style={{height: "300px", borderRadius: "21px 21px 0 0"}}>
-                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto1} style={{float:"left", marginTop:"50px", marginLeft: "6%"}} focusable="false" role="img"></img>
+                            <img className="bd-placeholder-img rounded-circle" alt="Adrian Alva" width="100" height="100" src={Foto1} style={{float:"left", marginTop:"50px", marginLeft: "6%"}} focusable="false"></img>
                             <div>
                                 <div className="message-content bg-dark" style={{ fontSize: "15px",width: "40%", borderRadius:"21px 21px 21px 0", marginLeft: "130px", height:"auto", marginTop:"70px"}}>
                                     
                                         <div className="bd-dark">
-                                            <div>Yo haré el Front-End.</div>
+                                            <div>Yo haré el Diseño Web.</div>
                                             <div className="mt-1">
                                                 <small className="opacity-65">8 mins ago</small>
                                             </div>
@@ -48,12 +46,12 @@ export default function ComoHicimosLaPagina() {
                                     
                                 </div>
                             </div>
-                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"70px", marginRight: "20px"}} focusable="false" role="img"></img>
+                            <img className="bd-placeholder-img rounded-circle" alt="Jose Cueva Celis" width="100" height="100" src={Foto2} style={{float:"right", marginTop:"70px", marginRight: "20px"}} focusable="false"></img>
                             <div>
-                                <div className="message-content bg-dark" style={{ fontSize: "15px",width: "30%", borderRadius:"21px 21px 0 21px", marginTop:"34px", height:"auto", width:"30%", float:"right", marginRight:"10px"}}>
+                                <div className="message-content bg-dark" style={{ fontSize: "15px", borderRadius:"21px 21px 0 21px", marginTop:"34px", height:"auto", width:"30%", float:"right", marginRight:"10px"}}>
                                     
                                         <div className="bd-dark">
-                                            <div>oc.</div>
+                                            <div>Yo hare el FrontEnd.</div>
                                             <div className="mt-1">
                                                 <small className="opacity-65">right now.</small>
                                             </div>
@@ -68,13 +66,13 @@ export default function ComoHicimosLaPagina() {
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style={{color: 'black'}}>
                     <div className="my-3 p-3">
                         <h2 className="display-5">Segundo</h2>
-                        <p className="lead">Herramientas Necesarias
-                            <img src={Herramienta} width="40" height="40" style={{marginLeft: "10px"}}></img> 
+                        <p className="lead">Herramientas Que Usamos
+                            <img src={Herramienta} alt="Herramientas de Desarrollo" width="40" height="40" style={{marginLeft: "10px"}}></img> 
                         </p>
                     </div>
                     <div className="bg-dark shadow-sm mx-auto" style={{width: "80%", height: "300px", borderRadius:"21px 21px 0 0"}}>
                         <div className="container bg-dark" style={{height: "300px", borderRadius: "21px 21px 0 0", padding: '5px'}}>
-                            <img className="bd-placeholder-img rounded-circle" width="100" height="100" src={Foto3} style={{float:"left", marginTop:"40px", marginLeft: "6%"}} focusable="false" role="img"></img>
+                            <img className="bd-placeholder-img rounded-circle" alt="Anderson Perales" width="100" height="100" src={Foto3} style={{float:"left", marginTop:"40px", marginLeft: "6%"}} focusable="false"></img>
                             <div style={{margin:"0 auto"}}>
                                 <div className="message-content bg-light" style={{ fontSize: "15px", borderRadius:"21px 21px 21px 0", marginLeft: "130px", height:"auto", marginTop:"55px"}}>
                                     
@@ -89,13 +87,13 @@ export default function ComoHicimosLaPagina() {
                             </div>
                             <div className="row" style={{marginTop:"60px", justifyContent:"center", minWidth: "100%"}}>
                                 <div className="col-xs-6" style={{marginRight:"10px"}}>
-                                    <img className="bd-placeholder-img" width="60" height="60" src={JavaScript} focusable="false" role="img"></img>
+                                    <img className="bd-placeholder-img" alt="JS" width="60" height="60" src={JavaScript} focusable="false"></img>
                                 </div> 
                                 <div className="col-xs-6" style={{marginRight:"10px"}}>
-                                    <img className="bd-placeholder-img" width="60" height="60" src={LogoReact} focusable="false" role="img"></img>
+                                    <img className="bd-placeholder-img" alt="React" width="60" height="60" src={LogoReact} focusable="false"></img>
                                 </div>                           
                                 <div className="col-xs-6">
-                                    <img className="bd-placeholder-img" width="60" height="60" src={Css} focusable="false" role="img"></img>
+                                    <img className="bd-placeholder-img" alt="CSS" width="60" height="60" src={Css} focusable="false"></img>
                                 </div>
                             </div>
                         </div>

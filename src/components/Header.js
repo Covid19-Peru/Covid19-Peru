@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import React from 'react';
 import DarkMode from './DarkMode'
-import {NavLink,Link}  from 'react-router-dom'
+import {Link}  from 'react-router-dom'
 import logo from '../assets/img/covid_19.svg'
 import '../assets/styles/css/NavBarStyle.css'
 import { GoMarkGithub as GithubIcon } from "react-icons/go"
@@ -30,14 +30,14 @@ export default function Header() {
       <header sx={{ bg: 'background', borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}} className="navbar_css"> 
         <div className="div_navigation">
           <Link to="/" className="css_link_img">
-            <img src={logo} className="css_logo" />
+            <img src={logo} alt="logo" className="css_logo" />
             <span sx={{fontWeight:'bold',color:'text'}}>Covid19</span>
           </Link>
           <nav className="nav_navigation">
             <ul className="css_list">
-              <NavItem linkTo={'/about'}>Datos Mundiales</NavItem>
-              <NavItem linkTo={'/coide-source'}>Datos Paises</NavItem>
-              <NavItem linkTo={'/prevencion'}>Datos Regiones</NavItem>
+              <NavItem linkTo={'/coide-source'}>About</NavItem>
+              <NavItem linkTo={'/about'}>Desarrolladores</NavItem>
+              <NavItem linkTo={'/prevencion'}>Recomendaciones</NavItem>
             </ul>
           </nav>
           <div className="css_icons">

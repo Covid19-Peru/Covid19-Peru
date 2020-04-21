@@ -10,7 +10,8 @@ webpack tiene soporte integrado para importaciones dinámicas; sin embargo, si e
         "useBuiltIns": "usage"
     }],
     
-    "@babel/preset-react"],
+    "@babel/preset-react"
+    ],
     "plugins": [
       ["@babel/plugin-transform-runtime",
         {

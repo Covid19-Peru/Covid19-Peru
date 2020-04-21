@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../assets/styles/css/social.css'
 import '../assets/styles/css/style.css'
-
+import moment from 'moment'
 function DatosRegionesPeru() {
     const [datosRegiones, setDatosRegiones] = useState([{Country:'',Provinces:{}}]);
     const [indexDatosRegiones, setIndexDatosRegiones] = useState('AMAZONAS');
@@ -23,25 +23,25 @@ function DatosRegionesPeru() {
         ObtensionDatos();
     }, [actualizarComponente]);
 
-    let date = new Date()
-    let day = date.getDate()
-    let month = date.getMonth() + 1
-    let year = date.getFullYear()
-    if(day<10)
-        day='0'+day; 
-    if(month < 10)
-        month='0'+month
+    function restarFecha(fecha) {
+        if (datosRegiones[0].Provinces[indexDatosRegiones][`${fecha.format('DD-MM-YYYY')}`] !== undefined) return fecha;
+        return restarFecha(fecha.subtract(1, 'd'));
+    }
     
-    const fecha=`${day}-${month}-${year}`
-
+    const fecha = () =>{
+        const fecha = moment();
+        const fechaSeleccionada=restarFecha(fecha).format('DD-MM-YYYY')
+        return fechaSeleccionada
+    }
     return (
         <>
             <section className="container text-center DatosRegiones">
                 <div className="text-center">
                     <hr sx={{borderBottomStyle:`solid`, borderBottomColor:'borderNavbar',borderBottomWidth:'1px'}}></hr>
                     <h1 style={{color:'red'}}>SECCIÓN EN CONSTRUCCIÓN</h1>
+                    <p className="text-muted"><em>(Puede tener algunos errores)</em> </p>
                     <div className="my-3 container">
-                        {loadingRegiones ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Region de Peru: {datosRegiones.Provinces}</h1>}
+                        {loadingRegiones ? <h1 className="display-4">Cargando ...</h1>  : <h1 className="display-4">Región del Perú: {datosRegiones.Provinces}</h1>}
                             <div className="container form-group">
                                 <select id="select_country" value={indexDatosRegiones} data-live-search="true" data-show-subtext="true" className="form-control" onChange={e => setIndexDatosRegiones(e.currentTarget.value)} sx={{backgroundColor:'background',color:'text'}}>
                                     {
@@ -62,7 +62,16 @@ function DatosRegionesPeru() {
                     
                     <div className="container">
                         <div className="text-center" sx={{color:'casosCoronavirus'}}>
-                            {loadingRegiones ? <h2>Cargando...</h2>  : <h2> Numero de Casos: {datosRegiones[0].Provinces[indexDatosRegiones][`${fecha}`]}</h2>}
+                            {
+                                loadingRegiones 
+                                ?
+                                <div className="spinner-border text-primary" role="status"></div> 
+                                :
+                                <>
+                                    <h2> Casos de Coronavirus</h2>
+                                    <h3>{datosRegiones[0].Provinces[indexDatosRegiones][fecha()]}</h3>
+                                </>
+                            }
                         </div>
                     </div>
                     
