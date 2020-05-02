@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "795e038eed8b90ef5ea299517fb974e6",
+    "revision": "47b9fdf9ac4badfd60845c8ea281f06b",
     "url": "/Covid19-Peru/index.html"
   },
   {
-    "revision": "ecf776b00a1d588a0c40",
+    "revision": "e22fd58d254125bae5bf",
     "url": "/Covid19-Peru/static/css/10.58571d8e.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/css/6.cb88b805.chunk.css"
   },
   {
-    "revision": "b89aa8e24759fd7ad26d",
+    "revision": "0e96cbc68ac04177fa7c",
     "url": "/Covid19-Peru/static/css/7.3d32d9ea.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.0.3acd6983.production.chunk.min.js"
   },
   {
-    "revision": "ecf776b00a1d588a0c40",
-    "url": "/Covid19-Peru/static/js/index.10.fd4a2edb.production.chunk.min.js"
+    "revision": "e22fd58d254125bae5bf",
+    "url": "/Covid19-Peru/static/js/index.10.9928ecac.production.chunk.min.js"
   },
   {
     "revision": "db4c1bd719a046d39e8a",
@@ -80,12 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Covid19-Peru/static/js/index.6.4cf9677c.production.chunk.min.js"
   },
   {
-    "revision": "b22baf623b24cb98f82a",
-    "url": "/Covid19-Peru/static/js/index.62b06dd5.production.min.js"
-  },
-  {
-    "revision": "b89aa8e24759fd7ad26d",
-    "url": "/Covid19-Peru/static/js/index.7.9c02b000.production.chunk.min.js"
+    "revision": "0e96cbc68ac04177fa7c",
+    "url": "/Covid19-Peru/static/js/index.7.1ee0daf9.production.chunk.min.js"
   },
   {
     "revision": "69f3887ffec71cb3bcc2",
@@ -94,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37c0dc0627b52c481544",
     "url": "/Covid19-Peru/static/js/index.9.985db164.production.chunk.min.js"
+  },
+  {
+    "revision": "9ed258bb44ec3fae5ef2",
+    "url": "/Covid19-Peru/static/js/index.a9c4e986.production.min.js"
   },
   {
     "revision": "eaea99d9a5f06d5922ef",
