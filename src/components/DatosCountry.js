@@ -36,7 +36,7 @@ function DatosCountry() {
             }        
         }
         ObtensionDatos();
-    }, [actualizarComponente]);
+    }, [actualizarComponente, unaVez]);
 
     return (
         <>
@@ -65,42 +65,42 @@ function DatosCountry() {
                         <div className="row">
                             <div className="col-md-4" sx={{color:'casosCoronavirus'}}>
                                 <h2>Casos de Coronavirus</h2>
-                                {loadingCounrty ? <p>Casos de <code>Covid-19</code> en ...</p>  : <p>Casos de <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}.</p>}
+                                {loadingCounrty ? <p>Casos de Covid-19 en ...</p>  : <p>Casos de Covid-19 en {datosCountry[indexDatosCountry].country}.</p>}
                                 <div className="casesPeru">
                                 {loadingCounrty ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].total}</h4>}
                                 </div>
                             </div>
                             <div className="col-md-4" sx={{color:'nuevosCasos'}}>
                                 <h2>Nuevos Casos</h2>
-                                {loadingCounrty ? <p>Nuevos casos de <code>Covid-19</code> en ...</p>  : <p>Nuevos casos de <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}.</p>}
+                                {loadingCounrty ? <p>Nuevos casos de Covid-19 en ...</p>  : <p>Nuevos casos de Covid-19 en {datosCountry[indexDatosCountry].country}.</p>}
                                 <div className="deathsPeru">
                                 {loadingCounrty ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].newCases}</h4>}
                                 </div>
                             </div>
                             <div className="col-md-4" sx={{color:'totalMuertes'}}>
                                 <h2>Total de Muertes</h2>
-                                {loadingCounrty ? <p>Total de muertes causadas por el <code>Covid-19</code> en ...</p>  : <p>Total de muertes causadas por el <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}.</p>}
+                                {loadingCounrty ? <p>Total de muertes causadas por el Covid-19 en ...</p>  : <p>Total de muertes causadas por el Covid-19 en {datosCountry[indexDatosCountry].country}.</p>}
                                 <div className="deathsPeru" >
                                 {loadingCounrty ? <div className="spinner-border text-danger" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].totalDeaths}</h4>}
                                 </div>
                             </div>
                             <div className="col-md-4" sx={{color:'nuevasMuertes'}}>
                                 <h2>Nuevas Muertes</h2>
-                                {loadingCounrty ? <p>Nuevas muertes <code>Covid-19</code> en ...</p>  : <p>Nuevas muertes <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}.</p>}
+                                {loadingCounrty ? <p>Nuevas muertes Covid-19 en ...</p>  : <p>Nuevas muertes Covid-19 en {datosCountry[indexDatosCountry].country}.</p>}
                                 <div className="deathsPeru">
                                 {loadingCounrty ? <div className="spinner-border text-danger" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].newDeaths}</h4>}
                                 </div>
                             </div>
                             <div className="col-md-4" sx={{color:'casosSerios'}}>
                                 <h2>Casos Serios</h2>
-                                {loadingCounrty ? <p>Total de casos graves ocasionados por el <code>Covid-19</code> en ...</p>  : <p>Total de casos graves ocasionados por el <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}.</p>}
+                                {loadingCounrty ? <p>Total de casos graves ocasionados por el Covid-19 en ...</p>  : <p>Total de casos graves ocasionados por el Covid-19 en {datosCountry[indexDatosCountry].country}.</p>}
                                 <div className="deathsPeru">
                                 {loadingCounrty ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].serious}</h4>}
                                 </div>
                             </div>
                             <div className="col-md-4" sx={{color:'casosRecuperados'}}>
                                 <h2>Casos Recuperados</h2>
-                                {loadingCounrty ? <p>La cantidad de personas que se recuperaron del <code>Covid-19</code> en ...</p>  : <p>La cantidad de personas que se recuperaron del <code>Covid-19</code> en {datosCountry[indexDatosCountry].country}</p>}
+                                {loadingCounrty ? <p>La cantidad de personas que se recuperaron del Covid-19 en ...</p>  : <p>La cantidad de personas que se recuperaron del Covid-19 en {datosCountry[indexDatosCountry].country}</p>}
                                 <div className="recoveredPeru">
                                 {loadingCounrty ? <div className="spinner-border text-success" role="status"></div>  : <h4 className="">{datosCountry[indexDatosCountry].totalRecovered}</h4>}
                                 </div>

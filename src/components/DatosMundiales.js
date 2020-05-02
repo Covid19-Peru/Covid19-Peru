@@ -58,21 +58,21 @@ function DatosMundiales() {
                             <div className="row">
                                 <div className="col-md-4" sx={{color:'casosCoronavirus'}}>
                                     <h2>Casos de Coronavirus</h2>
-                                    <p>Todos los casos confirmados de <code>Covid-19</code> en todo el mundo. </p>
+                                    <p>Todos los casos confirmados de Covid-19 en todo el mundo. </p>
                                     <div className="cases">
                                         {loadingMundial ? <div className="spinner-border text-primary" role="status"></div>  : <h4 className="">{dataMundial.cases}</h4>}
                                     </div>
                                 </div>
                                 <div className="col-md-4" sx={{color:'totalMuertes'}}>
                                     <h2>Muertes</h2>
-                                    <p>La cantidad de muertes causadas por el <code>Covid-19</code> en todo el mundo.</p>
+                                    <p>La cantidad de muertes causadas por el Covid-19 en todo el mundo.</p>
                                     <div className="deaths">
                                         {loadingMundial ?<div className="spinner-border text-danger" role="status"></div>  : <h4 className="">{dataMundial.deaths}</h4>}
                                     </div>
                                 </div>
                                 <div className="col-md-4" sx={{color:'casosRecuperados'}}>
                                     <h2>Casos Recuperados</h2>
-                                    <p>La cantidad de personas que se recuperaron del <code>Covid-19</code></p>
+                                    <p>La cantidad de personas que se recuperaron del Covid-19</p>
                                     <div className="recovered">
                                     {loadingMundial ? <div className="spinner-border text-success" role="status"></div> : <h4 className="">{dataMundial.recovered}</h4>}
                                     </div>
