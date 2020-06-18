@@ -1,7 +1,8 @@
 Este proyecto fue arrancado con [Create React App](https://github.com/facebook/create-react-app).
 # Description
 
-Este código pertenece al Frontend de la organización ["Covid19-Peru"](https://github.com/Covid19-Peru), el presente repositorio cuyo fin y objetivo es el de mantener informado al usurio final con respecto al tema del "Covid19".
+Este código pertenece al Frontend de la organización ["Covid19-Peru"](https://github.com/Covid19-Peru), el presente repositorio cuyo fin y objetivo es el de mantener informado al usurio final con respecto al tema del "Covid19".<br />
+["click aqui"](https://covid19-peru.github.io/Covid19-Peru/)
 
 ---
 
