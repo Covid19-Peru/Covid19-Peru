@@ -19,7 +19,7 @@ function DatosCountry() {
             setLoadingCountry(true);
             //alert("2.2")
             const datos = await axios(
-                'https://proyectosupnjose.website/api/coronavirus/countries',
+                'https://api.covid19api.com/countries',
             );
             //alert("2.3")
             setDatosCountry(datos.data)
@@ -28,7 +28,7 @@ function DatosCountry() {
 
             if(unaVez===true){
                 datos.data.filter( (datoCountry,index) =>{
-                    if(datoCountry.country==='Peru'){
+                    if(datoCountry.Country==='Peru'){
                         setIndexDatosCountry(index)
                     }
                 })
@@ -53,7 +53,7 @@ function DatosCountry() {
                                             <option>Obteniendo datos ...</option>
                                         :
                                         datosCountry.map((datoCountry,index) => (
-                                            <option key={index} value={index}>{datoCountry.country +" - Top: "+(index+1)}</option>
+                                            <option key={index} value={index}>{datoCountry.Country +" - Top: "+(index+1)}</option>
                                         ))
                                     }
                                 </select>
