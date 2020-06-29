@@ -6,7 +6,7 @@ webpack tiene soporte integrado para importaciones dinámicas; sin embargo, si e
   "presets": [[
     "@babel/preset-env", 
     {
-        "corejs": "3",
+        "corejs": "2",
         "useBuiltIns": "usage"
     }],
     
