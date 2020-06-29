@@ -7,7 +7,7 @@ Este código pertenece al Frontend de la organización ["Covid19-Peru"](https://
 
 ---
 
-### Instalar
+## Instalar
 
 Descargar:
 ```bash
@@ -20,7 +20,7 @@ npm install or yarn install
 
 ---
 
-### Manejo de Git
+## Manejo de Git
 
 Bajar nuevos cambios desde GitHub:
 ```bash
@@ -45,3 +45,10 @@ git push -u
 ---
 > PD2: Se necesita tener instalado el git (https://git-scm.com/downloads) y el NodeJS (https://nodejs.org/es/download/)
 ---
+
+
+![Captura1](https://raw.githubusercontent.com/Covid19-Peru/Covid19-Peru/master/github/Captura1.JPG)
+---
+![Captura2](https://raw.githubusercontent.com/Covid19-Peru/Covid19-Peru/master/github/Captura2.JPG)
+---
+![Captura3](https://raw.githubusercontent.com/Covid19-Peru/Covid19-Peru/master/github/Captura3.JPG)
