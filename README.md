@@ -39,7 +39,7 @@ git push -u
 - Axios (consumo de la api)
 - gzip-cli (la conversión/compresión de archivos en formato br2 and gzip)
 - react-icons
-- theme-ui(Uso de Css-in-Js)
+- theme-ui(Uso de Css-in-Js, implementación de Modo Oscuro)
 
 > PD1: En caso de no haber usado git clone y tener problemas al subir cambios a GitHub usar el siguiente código "git pull origin master --allow-unrelated-histories".
 ---
